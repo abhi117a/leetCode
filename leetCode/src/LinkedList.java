@@ -2,7 +2,7 @@ public class LinkedList {
 
   private static Node head;
 
-  private void add(int data) {
+  private void addAtTheEnd(int data) {
     if (head == null) {
       head = new Node(data);
     } else {
@@ -13,6 +13,20 @@ public class LinkedList {
       p.next = new Node(data);
     }
   }
+
+
+  private void addAtTheBegining(int data){
+      if (head==null){
+          head = new Node(data);
+      }
+      else {
+          Node p = new Node(data);
+          p.next = head;
+          head = p;
+      }
+  }
+
+
 
   private void viewList(Node head) {
     Node p = head;
@@ -26,8 +40,9 @@ public class LinkedList {
   public static void main(String[] args) {
 
     LinkedList ls = new LinkedList();
-    ls.add(1);
-    ls.add(2);
+    ls.addAtTheBegining(1);
+    ls.addAtTheBegining(2);
+    ls.addAtTheBegining(3);
     ls.viewList(head);
     System.out.println("Program Ended");
   }
