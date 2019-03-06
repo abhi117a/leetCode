@@ -2,6 +2,8 @@ public class LinkedList {
 
   private static Node head;
 
+  ////// Add at the end///////
+
   private void addAtTheEnd(int data) {
     if (head == null) {
       head = new Node(data);
@@ -14,20 +16,35 @@ public class LinkedList {
     }
   }
 
+  ////// Add at the begining//////
 
-  private void addAtTheBegining(int data){
-      if (head==null){
-          head = new Node(data);
-      }
-      else {
-          Node p = new Node(data);
-          p.next = head;
-          head = p;
-      }
+  private void addAtTheBegining(int data) {
+    if (head == null) {
+      head = new Node(data);
+    } else {
+      Node p = new Node(data);
+      p.next = head;
+      head = p;
+    }
   }
 
+  /////// Add at the desired location//////
 
+  private void addAtLocation(int loc, int data) {
 
+    Node p = head;
+    while (p.next != null && loc > 1) {
+      p = p.next;
+      loc--;
+    }
+    if (loc == 1) {
+      Node k = new Node(data);
+      k.next = p.next;
+      p.next = k;
+    }
+  }
+
+  //// View The Linked List//////
   private void viewList(Node head) {
     Node p = head;
     while (p.next != null) {
@@ -40,9 +57,10 @@ public class LinkedList {
   public static void main(String[] args) {
 
     LinkedList ls = new LinkedList();
-    ls.addAtTheBegining(1);
-    ls.addAtTheBegining(2);
-    ls.addAtTheBegining(3);
+    ls.addAtTheEnd(1);
+    ls.addAtTheEnd(2);
+    ls.addAtTheEnd(3);
+    ls.addAtLocation(1, 10);
     ls.viewList(head);
     System.out.println("Program Ended");
   }
