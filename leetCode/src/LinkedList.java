@@ -56,6 +56,16 @@ public class LinkedList {
     }
   }
 
+  //// Remove from the begining////
+
+  private void removeStart() {
+    if (head != null) {
+      Node p = head;
+      p = null;
+      head = head.next;
+    }
+  }
+
   //// View The Linked List//////
   private void viewList(Node head) {
     Node p = head;
@@ -74,7 +84,7 @@ public class LinkedList {
     ls.addAtTheEnd(3);
     ls.addAtLocation(1, 10);
     ls.viewList(head);
-    ls.removeEnd();
+    ls.removeStart();
     ls.viewList(head);
     System.out.println("Program Ended");
   }
