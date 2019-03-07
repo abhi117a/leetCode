@@ -1,6 +1,7 @@
 public class LinkedList {
 
   private static Node head;
+  private static Node head1;
 
   ////// Add at the end///////
 
@@ -56,13 +57,26 @@ public class LinkedList {
     }
   }
 
-  //// Remove from the begining////
+  //// Remove from the beginning////
 
   private void removeStart() {
     if (head != null) {
       Node p = head;
       p = null;
       head = head.next;
+    }
+  }
+
+  /////
+
+  private void addTwoNumbersEasy() {
+
+    Node p = head;
+    Node k = head1;
+    int total = 0;
+
+    while (p.next != null) {
+      total += p.data + k.data;
     }
   }
 
