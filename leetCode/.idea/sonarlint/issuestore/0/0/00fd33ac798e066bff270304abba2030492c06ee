@@ -1,11 +1,19 @@
 
-Ysquid:S2696	"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8¶–Ü •-
 [
-squid:S106?"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8×Íş •-
+squid:S106W"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8×Íş •-
+Ysquid:S2696
+"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8¶–Ü •-
 [
-squid:S106O"9Replace this use of System.out or System.err by a logger.(È¶¾üÿÿÿÿ8‹ğ™ø”-
-Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¥”³¦úÿÿÿÿ8¶–Ü •-
+squid:S106g"9Replace this use of System.out or System.err by a logger.(È¶¾üÿÿÿÿ8‹ğ™ø”-
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¥”³¦úÿÿÿÿ8¶–Ü •-
+fsquid:UnusedPrivateMethod"5Remove this unused private "addAtTheBegining" method.(úÆ´ûüÿÿÿÿ8Û¸ı •-
+Ysquid:S2696B"6Make the enclosing method "static" or remove this set.(‘¡–òùÿÿÿÿ8ÖÈ¼Ó•-
+Zsquid:UnusedPrivateMethod2".Remove this unused private "removeEnd" method.(Èú§”8ûÓ´Ó•-
 [
-squid:S106B"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8×Íş •-
-Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8¶–Ü •-
-fsquid:UnusedPrivateMethod"5Remove this unused private "addAtTheBegining" method.(úÆ´ûüÿÿÿÿ8Û¸ı •-
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8×Íş •-
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8¶–Ü •-
+Xsquid:S1854A"5Remove this useless assignment to local variable "p".(¦è¨ÿÿÿÿÿ8Ì’ÃÓ•-
+gsquid:UnusedPrivateMethodH"6Remove this unused private "addTwoNumbersEasy" method.(İ½Ï·üÿÿÿÿ8ç÷ëÓ•-
+Msquid:S1481L"*Remove this unused "total" local variable.(óË üÿÿÿÿ8ç÷ëÓ•-
+Dsquid:S1481@"&Remove this unused "p" local variable.(Ö­˜ø8Ì’ÃÓ•-
+Ssquid:S1854@"5Remove this useless assignment to local variable "p".(Ö­˜ø8Ì’ÃÓ•-
