@@ -124,11 +124,28 @@ public class LinkedList {
       out.add(1);
     }
 
-      Collections.reverse(out);
+    Collections.reverse(out);
 
     for (int i = 0; i < out.size(); i++) {
       System.out.print(out.get(i));
     }
+  }
+
+  /// Reverse a LinkedList/////
+
+  private void reverseList() {
+
+    Node previous = null;
+    Node current = head;
+    Node following = head;
+
+    while (current != null) {
+      following = following.next;
+      current.next = previous;
+      previous = current;
+      current = following;
+    }
+    head = previous;
   }
 
   //// View The Linked List//////
@@ -160,15 +177,16 @@ public class LinkedList {
 
     //////// Add Two Numbers /////////
 
-    ls.addAtTheEnd(9);
-    ls.addAtTheEnd(9);
-    ls.addAtTheEnd(9);
-
+    ls.addAtTheEnd(1);
+    ls.addAtTheEnd(2);
+    ls.addAtTheEnd(3);
+    ls.reverseList();
+    ls.viewList(head);
     ls.addAtTheEnd1(9);
     ls.addAtTheEnd1(9);
     ls.addAtTheEnd1(9);
 
-    ls.addTwoNumbers();
+    // ls.addTwoNumbers();
 
     System.out.println("Program Ended");
   }
