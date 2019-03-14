@@ -148,6 +148,31 @@ public class LinkedList {
     head = previous;
   }
 
+  /// Swap two elements of LinkedList////
+
+  private void swapElements(int a, int b) {
+
+    Node one = head;
+    Node prevOne = null;
+    Node two = head;
+    Node prevTwo = null;
+
+    while (one != null && a > 0) {
+      prevOne = one;
+      one = one.next;
+      a--;
+    }
+    while (two != null && b > 0) {
+      prevTwo = two;
+      two = two.next;
+      b--;
+    }
+
+    Node temp = one.next;
+    one.next = two.next;
+    two.next = temp;
+  }
+
   //// View The Linked List//////
   private void viewList(Node head) {
     Node p = head;
