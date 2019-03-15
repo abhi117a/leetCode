@@ -1,26 +1,35 @@
 
-Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¸Ï·ûÿÿÿÿ8ÿÙô•-
-csquid:UnusedPrivateMethod3"2Remove this unused private "addAtLocation" method.(‰½’Åùÿÿÿÿ8†ç£õ•-
-\squid:UnusedPrivateMethodO"0Remove this unused private "removeStart" method.(¤Øì·8†ç£õ•-
-jsquid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(àîø8à¤¤õ•-
-\
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8¡Ï¢õ•-
-Msquid:S1481]"*Remove this unused "total" local variable.(óË üÿÿÿÿ8ç÷ëÓ•-
-Ysquid:S2696)"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8ØÔÙô•-
-fsquid:UnusedPrivateMethod'"5Remove this unused private "addAtTheBegining" method.(úÆ´ûüÿÿÿÿ8çÌ«ô•-
+wsquid:S2293h"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü¸§å8©ÊŒõ•-
 Ysquid:S2696S"6Make the enclosing method "static" or remove this set.(‘¡–òùÿÿÿÿ8ØÔÙô•-
-\
-squid:S106­"9Replace this use of System.out or System.err by a logger.(È¶¾üÿÿÿÿ8‰¬õ•-
+osquid:CommentedOutCodeLineÖ"<This block of commented-out lines of code should be removed.(Ø·üÿÿÿÿ8ƒ§şæ—-
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¸Ï·ûÿÿÿÿ8ÿÙô•-
+Psquid:S1481",Remove this unused "prevTwo" local variable.(—†Ãüÿÿÿÿ8©Ñıæ—-
+\squid:UnusedPrivateMethodO"0Remove this unused private "removeStart" method.(¤Øì·8†ç£õ•-
+esquid:S2259¬"AA "NullPointerException" could be thrown; "two" is nullable here.(‘¤¬Ğùÿÿÿÿ8ï­ç—-
+fsquid:UnusedPrivateMethod'"5Remove this unused private "addAtTheBegining" method.(úÆ´ûüÿÿÿÿ8çÌ«ô•-
+_squid:S1854¡";Remove this useless assignment to local variable "prevOne".(Šêû…şÿÿÿÿ8â°‹ç—-
 Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8–¶Üô•-
-Zsquid:UnusedPrivateMethodC".Remove this unused private "removeEnd" method.(Èú§”8ûÓ´Ó•-
-Ssquid:S1854Q"5Remove this useless assignment to local variable "p".(Ö­˜ø8Ì’ÃÓ•-
-Ysquid:S2696-"6Make the enclosing method "static" or remove this set.(¥”³¦úÿÿÿÿ8ØÔÙô•-
 Dsquid:S1481Q"&Remove this unused "p" local variable.(Ö­˜ø8Ì’ÃÓ•-
 gsquid:UnusedPrivateMethodY"6Remove this unused private "addTwoNumbersEasy" method.(İ½Ï·üÿÿÿÿ8ç÷ëÓ•-
+Msquid:S1481]"*Remove this unused "total" local variable.(óË üÿÿÿÿ8ç÷ëÓ•-
 \
-squid:S106Š"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8¡Ï¢õ•-
+squid:S106´"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8ƒ§şæ—-
+Ssquid:S1854Q"5Remove this useless assignment to local variable "p".(Ö­˜ø8Ì’ÃÓ•-
+csquid:UnusedPrivateMethod™"1Remove this unused private "swapElements" method.(ÍÓôƒúÿÿÿÿ8‡Æ»æ—-
+Ysquid:S2696)"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8ØÔÙô•-
 Xsquid:S1854R"5Remove this useless assignment to local variable "p".(¦è¨ÿÿÿÿÿ8Ì’ÃÓ•-
-Zsquid:UnusedPrivateMethod‡"-Remove this unused private "viewList" method.(¼Û¸ø8†ç£õ•-
+\
+squid:S106Ø"9Replace this use of System.out or System.err by a logger.(È¶¾üÿÿÿÿ8ƒ§şæ—-
+_squid:S1854¦";Remove this useless assignment to local variable "prevTwo".(Ëÿ‹òøÿÿÿÿ8â°‹ç—-
 W
-squid:S106‚"9Replace this use of System.out or System.err by a logger.(Âıùó8«Şäõ•-
-wsquid:S2293h"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü¸§å8©ÊŒõ•-
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(Âıùó8±‰‰õ–-
+esquid:S2259«"AA "NullPointerException" could be thrown; "one" is nullable here.(Î„š¦ıÿÿÿÿ8ëò†ç—-
+csquid:UnusedPrivateMethod3"2Remove this unused private "addAtLocation" method.(‰½’Åùÿÿÿÿ8†ç£õ•-
+^squid:UnusedPrivateMethodc"2Remove this unused private "addTwoNumbers" method.(ù¸­‹8Óà¬õ–-
+jsquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(àîø8ƒ§şæ—-
+Psquid:S1481œ",Remove this unused "prevOne" local variable.(Ïæéçøÿÿÿÿ8àÍüæ—-
+Ysquid:S2696-"6Make the enclosing method "static" or remove this set.(¥”³¦úÿÿÿÿ8ØÔÙô•-
+\
+squid:S106·"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8ƒ§şæ—-
+Usquid:S2696”"6Make the enclosing method "static" or remove this set.(öÁìŠ8Ö×ªõ–-
+Zsquid:UnusedPrivateMethodC".Remove this unused private "removeEnd" method.(Èú§”8ûÓ´Ó•-
