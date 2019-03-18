@@ -173,6 +173,38 @@ public class LinkedList {
     two.next = temp;
   }
 
+  //// Merging sorted linkedList////
+
+  private void merge2SorterdList() {
+
+    Node p = head;
+    Node t = head1;
+    int dat = head.data > head1.data ? head.data : head1.data;
+    Node n = new Node(dat);
+
+    while (p != null && t != null) {
+
+      if (p == null) {
+        n = n.next;
+        n = new Node(t.data);
+        t = t.next;
+      } else if (t == null) {
+        n = n.next;
+        n = new Node(p.data);
+        p = p.next;
+      } else {
+        n = n.next;
+        if (t.data>p.data){
+            n = new Node(t.data);
+            t = t.next;
+        } else {
+            n = new Node(p.data);
+            p = p.next;
+        }
+      }
+    }
+  }
+
   //// View The Linked List//////
   private void viewList(Node head) {
     Node p = head;
