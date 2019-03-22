@@ -5,6 +5,7 @@ public class LinkedList {
 
   private static Node head;
   private static Node head1;
+  private static Node head2;
 
   ////// Add at the end///////
 
@@ -179,10 +180,11 @@ public class LinkedList {
 
     Node p = head;
     Node t = head1;
-    int dat = head.data > head1.data ? head.data : head1.data;
+    int dat = head.data < head1.data ? head.data : head1.data;
     Node n = new Node(dat);
+    head2 = n;
 
-    while (p != null && t != null) {
+    while (p != null || t != null) {
 
       if (p == null) {
         n = n.next;
@@ -194,12 +196,12 @@ public class LinkedList {
         p = p.next;
       } else {
         n = n.next;
-        if (t.data>p.data){
-            n = new Node(t.data);
-            t = t.next;
+        if (t.data < p.data) {
+          n = new Node(t.data);
+          t = t.next;
         } else {
-            n = new Node(p.data);
-            p = p.next;
+          n = new Node(p.data);
+          p = p.next;
         }
       }
     }
@@ -237,12 +239,12 @@ public class LinkedList {
     ls.addAtTheEnd(1);
     ls.addAtTheEnd(2);
     ls.addAtTheEnd(3);
-    ls.reverseList();
-    ls.viewList(head);
-    ls.addAtTheEnd1(9);
-    ls.addAtTheEnd1(9);
-    ls.addAtTheEnd1(9);
-
+    // ls.reverseList();
+    // ls.viewList(head);
+    ls.addAtTheEnd1(4);
+    ls.addAtTheEnd1(5);
+    ls.addAtTheEnd1(6);
+    ls.merge2SorterdList();
     // ls.addTwoNumbers();
 
     System.out.println("Program Ended");
