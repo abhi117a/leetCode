@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Stack;
+import java.util.*;
 
 public class solution {
 
@@ -132,6 +129,8 @@ public class solution {
     System.out.print(transaction);
   }
 
+  //// Check Valid Paranthesis////
+
   private boolean validParantehis(String s) {
 
     Stack<Character> st = new Stack<>();
@@ -169,6 +168,34 @@ public class solution {
     return true;
   }
 
+  /// Merge two Sorted Array///
+
+  private void mergeSorted(int nums1[], int m, int nums2[], int n) {
+
+    ArrayList<Integer> fin = new ArrayList<>();
+    int point1 = 0;
+    int point2 = 0;
+
+    int len = nums1.length > nums2.length ? nums1.length : nums2.length;
+
+    while (point1 < m || point2 < n) {
+      if (point1 < m && point2 < n) {
+        if (nums1[point1] <= nums2[point2]) {
+          fin.add(nums1[point1++]);
+        } else {
+          fin.add(nums2[point2++]);
+        }
+      } else if (point1 < m && point2 >= n) {
+        fin.add(nums1[point1++]);
+      } else if (point1 >= m && point2 < n) {
+        fin.add(nums2[point2++]);
+      }
+    }
+    for (int x : fin) {
+      System.out.print(" " + x);
+    }
+  }
+
   public static void main(String[] args) {
     int test[] = {2, 7, 11, 15};
     solution ts = new solution();
@@ -181,6 +208,9 @@ public class solution {
     // ts.removeDuplicates(nums);
     // ts.maxSumSubArray(nums);
     // ts.buySellStock(nums);
-    ts.validParantehis("([)]");
+    // ts.validParantehis("([)]");
+    int[] nums1 = {1, 2, 3};
+    int[] nums2 = {2, 5, 6};
+    ts.mergeSorted(nums1, 3, nums2, 3);
   }
 }
