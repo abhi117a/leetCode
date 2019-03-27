@@ -195,9 +195,141 @@ public class solution {
       System.out.print(" " + x);
     }
   }
+  ////// Multiples of 5 and 3 /////
+  private List<String> fizzBuzz(int n) {
+    int count = 1;
+    List<String> fin = new ArrayList<>();
+    while (count <= n) {
+      if (count % 5 == 0 && count % 3 == 0) {
+        fin.add("FizzBuzz");
+        count++;
+      } else if (count % 5 == 0) {
+        fin.add("Buzz");
+        count++;
+      } else if (count % 3 == 0) {
+        fin.add("Fizz");
+        count++;
+      } else {
+        fin.add(Integer.toString(count));
+        count++;
+      }
+    }
+    System.out.print(fin);
+    return fin;
+  }
+
+  //// Compressed String Iterator////
+
+  ///// LRU Cache //////////
+  ///// LRU Cache //////////
+
+  //// Reverse a string/array inplace
+
+  private void reverse(char[] arr) {
+    int start = 0;
+    int end = arr.length - 1;
+
+    while (start < end) {
+      char temp = arr[start];
+      arr[start] = arr[end];
+      arr[end] = temp;
+      start++;
+      end--;
+    }
+    for (int i = 0; i < arr.length; i++) {
+      System.out.print(arr[i]);
+    }
+  }
+
+  private void reverseSentence(char[] message) {
+
+    int start = 0;
+    int end = message.length - 1;
+    char[] reversedMessage = helper(start, end, message);
+
+    int spaceFinder = 0;
+    for (int i = 0; i <= reversedMessage.length; i++) {
+      if (message[i] == ' ' || i == message.length) {
+        helper(spaceFinder, i, reversedMessage);
+        spaceFinder += i + 1;
+      }
+    }
+  }
+
+  private char[] helper(int start, int end, char[] message) {
+    while (start < end) {
+      char temp = message[start];
+      message[start] = message[end];
+      message[end] = message[start];
+      start++;
+      end--;
+    }
+    return message;
+  }
+  /// Subarray with given sum ///
+
+  private void subArraySum(int[] arr, int target) {
+    int GlobSum = 0;
+    int lenSubArray = 0;
+    int start = -1;
+    int end = -1;
+    for (int i = 0; i < arr.length; i++) {
+
+      if (GlobSum < target) {
+        if (start != -1) {
+          end = i;
+        } else {
+          start = i;
+        }
+        GlobSum += arr[i];
+        lenSubArray++;
+      } else if (GlobSum == target) {
+        System.out.print(
+            "Target value found length of subArray: "
+                + lenSubArray
+                + "Start Index: "
+                + start
+                + "End index: "
+                + end);
+        return;
+      } else if (GlobSum > target) {
+        i--;
+        GlobSum = 0;
+        lenSubArray = 0;
+        start = -1;
+        end = -1;
+      }
+    }
+  }
+
+  /// Sort Array of 0, 1 and 2///
+
+  private void sortArray(int[] arr) {
+
+    int bank[] = new int[3];
+
+    for (int x : arr) {
+      if (x == 0) {
+        bank[0]++;
+      } else if (x == 1) {
+        bank[1]++;
+      } else {
+        bank[2]++;
+      }
+    }
+    int counter = 0;
+    for (int i = 0;
+        i < bank.length;
+        i++) { // though 2 loops but the first loop is of constant i.e. 3 so it will be 3N == N
+      for (int j = 0; j < bank[i]; j++) {
+        System.out.print(i);
+        arr[counter] = i;
+      }
+    }
+  }
 
   public static void main(String[] args) {
-    int test[] = {2, 7, 11, 15};
+    int test[] = {2, 7, 11, 15, 32};
     solution ts = new solution();
     // System.out.print(ts.addTwoSum(test, 9));
     // ts.revInt1(-123);
@@ -211,6 +343,17 @@ public class solution {
     // ts.validParantehis("([)]");
     int[] nums1 = {1, 2, 3};
     int[] nums2 = {2, 5, 6};
-    ts.mergeSorted(nums1, 3, nums2, 3);
+    // ts.mergeSorted(nums1, 3, nums2, 3);
+
+    // ts.fizzBuzz(15);
+
+    char[] arr = {'H', 'E', 'L', 'L', 'O'};
+    // ts.reverse(arr);
+
+    int target[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    // ts.subArraySum(target, 15);
+
+    int val[] = {2, 2, 2, 1, 1, 1, 0, 0, 0, 1};
+    ts.sortArray(val);
   }
 }
