@@ -328,6 +328,45 @@ public class solution {
     }
   }
 
+  private void equilibrium(int arr[]) {
+
+    int start = 1;
+    int end = arr.length - 2;
+
+    int startSum = arr[0];
+    int endSum = arr[arr.length - 1];
+
+    while (start <= end) {
+
+      if (startSum == endSum) {
+        System.out.print("Equilibrium: " + start);
+        return;
+      }
+
+      if (startSum < endSum) {
+        startSum += arr[start++];
+      } else if (startSum > endSum) {
+        endSum += arr[end--];
+      }
+    }
+    System.out.print("No eqilibrium");
+  }
+
+  /// Leaders In An Array///
+
+  private void learderinArray(int arr[]) {
+    int valueCounter = 0;
+    int result[] = new int[arr.length];
+
+    for (int i = 0; i < arr.length - 1; i++) {
+
+      if (arr[i] >= arr[i + 1]) {
+        System.out.print(arr[i]);
+      }
+    }
+    System.out.print(arr[arr.length - 1]);
+  }
+
   public static void main(String[] args) {
     int test[] = {2, 7, 11, 15, 32};
     solution ts = new solution();
@@ -354,6 +393,12 @@ public class solution {
     // ts.subArraySum(target, 15);
 
     int val[] = {2, 2, 2, 1, 1, 1, 0, 0, 0, 1};
-    ts.sortArray(val);
+    // ts.sortArray(val);
+
+    int eqi[] = {10, 1, 3, 5, 2};
+    // ts.equilibrium(eqi);
+
+    int leader[] = {16, 17, 4, 3, 5, 2};
+    ts.learderinArray(leader);
   }
 }
