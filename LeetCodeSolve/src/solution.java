@@ -367,6 +367,82 @@ public class solution {
     System.out.print(arr[arr.length - 1]);
   }
 
+  /// Minimum Platform or Airport
+
+  private void minPlatformNeeded(int arrival[], int departure[], int count) {
+
+    int platform_needed = 0, maxPlatforms = 0;
+    // Arrays.sort(arrival);
+    // Arrays.sort(departure);
+    int i = 0, j = 0;
+
+    // Similar to merge in merge sort
+    while (i < count && j < count) {
+      if (arrival[i] < departure[j]) {
+        platform_needed++;
+        i++;
+        if (platform_needed > maxPlatforms) maxPlatforms = platform_needed;
+      } else {
+        platform_needed--;
+        j++;
+      }
+    }
+    System.out.print(maxPlatforms);
+
+    /*
+    Arrays.sort(arrival);
+    Arrays.sort(departure);
+
+    int i = 0;
+    int j = 0;
+    int platformCount = 0;
+    int globPlatform = 0;
+
+    while (i < count && j < count) {
+
+      if (arrival[i] < departure[j]) {
+        platformCount++;
+        System.out.print(platformCount);
+        i++;
+        if (globPlatform < platformCount) {
+          globPlatform += platformCount;
+        }
+      } else {
+        platformCount--;
+        j++;
+      }
+    }
+    System.out.println("Total Num: " + globPlatform);
+    */
+  }
+
+  // Maximum of all subarrays//
+  private void maximumSubArrayinEach(int[] arr, int n) {
+
+    int counter = 0;
+    int forCounter = n;
+
+    while (forCounter < arr.length) {
+      int val = 0;
+      int ans = limitLoop(counter++, forCounter++, arr);
+      System.out.print(ans);
+    }
+  }
+
+  private int limitLoop(int start, int end, int[] arr) {
+    int val = 0;
+    for (int i = start; i <= end; i++) {
+      val = Integer.max(arr[i], val);
+    }
+    return val;
+  }
+
+  private void lambdaTraversal(int arr[]) {
+
+    int x = Arrays.stream(arr).max().orElse(0);
+    System.out.print(x);
+  }
+
   public static void main(String[] args) {
     int test[] = {2, 7, 11, 15, 32};
     solution ts = new solution();
@@ -399,6 +475,24 @@ public class solution {
     // ts.equilibrium(eqi);
 
     int leader[] = {16, 17, 4, 3, 5, 2};
-    ts.learderinArray(leader);
+    // ts.learderinArray(eqi);
+
+    int trainArri[] = {200, 210, 300, 320, 350, 500};
+    int trainDepart[] = {230, 340, 320, 430, 400, 520};
+    // ts.minPlatformNeeded(trainArri, trainDepart, 6);
+
+    ArrayList<Integer> arrL = new ArrayList<Integer>();
+    arrL.add(1);
+    arrL.add(2);
+    arrL.add(3);
+    arrL.add(4);
+
+    // Using lambda expression to print all elements
+    // of arrL
+    // arrL.forEach(n -> System.out.println(n));
+
+    // ts.lambdaTraversal(trainArri);
+    int[] findMax = {1, 2, 3, 1, 4, 5, 2, 3, 6};
+    ts.maximumSubArrayinEach(findMax, 3);
   }
 }
