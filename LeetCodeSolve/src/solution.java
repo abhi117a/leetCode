@@ -443,9 +443,267 @@ public class solution {
     System.out.print(x);
   }
 
+  /// Trapping Rain Water////
+
+  private void trapRainWater(int arr[]) {
+
+    int start = 0;
+    int mainStart = 0;
+    int mainEnd = 0;
+    int end = 0;
+    int counter = 0;
+
+    for (int i = 0; i < arr.length / 2; i++) {
+      if (start < arr[i]) {
+        start = arr[i];
+        mainStart = i;
+      }
+    }
+
+    for (int i = arr.length - 1; i > arr.length / 2; i--) {
+      if (end < arr[i]) {
+        end = arr[i];
+        mainEnd = i;
+      }
+    }
+
+    int valueAdder = start > end ? end : start;
+
+    for (int i = mainStart; i < mainEnd; i++) {
+      if (arr[i] == 0) {
+        counter += valueAdder;
+      } else {
+        counter += valueAdder - arr[i];
+      }
+    }
+    System.out.println("Total water can be trapped is: " + counter);
+  }
+
+  private void findWater(int arr[], int n) {
+    // initialize output
+    int result = 0;
+
+    // maximum element on left and right
+    int left_max = 0, right_max = 0;
+
+    // indices to traverse the array
+    int lo = 0, hi = n - 1;
+
+    while (lo <= hi) {
+      if (arr[lo] < arr[hi]) {
+        if (arr[lo] > left_max)
+
+          // update max in left
+          left_max = arr[lo];
+        else
+
+          // water on curr element =
+          // max - curr
+          result += left_max - arr[lo];
+        lo++;
+      } else {
+        if (arr[hi] > right_max)
+
+          // update right maximum
+          right_max = arr[hi];
+        else result += right_max - arr[hi];
+        hi--;
+      }
+    }
+
+    System.out.println("Water " + result);
+  }
+
+  private void trapRainWater(int[] arr, int len) {
+    int lo = 0;
+    int high = len - 1;
+    int leftMax = 0;
+    int rightMax = 0;
+    int result = 0;
+
+    while (lo < high) {
+
+      if (arr[lo] < arr[high]) {
+
+        if (arr[lo] > leftMax) {
+          leftMax = arr[lo];
+        } else {
+          result += leftMax - arr[lo];
+        }
+        lo++;
+      } else {
+        if (arr[high] > rightMax) {
+          rightMax = arr[high];
+        } else {
+          result += rightMax - arr[high];
+        }
+        high--;
+      }
+    }
+    System.out.print(result);
+  }
+
+  private void palindromeChecker(char[] arr) {
+
+    HashMap<Character, Integer> hm = new HashMap<>();
+    int len = arr.length;
+    int flag = 0;
+
+    for (int i = 0; i < arr.length; i++) {
+      if (hm.containsKey(arr[i])) {
+        int temp = hm.get(arr[i]);
+        temp++;
+        hm.put(arr[i], temp);
+      } else {
+        hm.put(arr[i], 1);
+      }
+    }
+    for (Integer x : hm.values()) {
+      if (x % 2 != 0) {
+        flag++;
+      }
+    }
+
+    if (len % 2 == 0 && flag == 0) {
+      System.out.print("Plaindrome");
+      return;
+    } else if (len % 2 != 0 && flag == 1) {
+      System.out.print("Plaindrome");
+      return;
+    } else {
+      System.out.print("Not a plaindrome");
+      return;
+    }
+  }
+
+  private void plaindromeCheckerUpdatd(String str) {
+
+    HashSet<Character> hs = new HashSet<>();
+
+    for (char x : str.toCharArray()) {
+
+      if (hs.contains(x)) {
+        hs.remove(x);
+      } else {
+        hs.add(x);
+      }
+    }
+    if (hs.size() == 1 || hs.size() == 0) {
+      System.out.print("Palindrome");
+      return;
+    } else {
+      System.out.print("Not a plaindrome");
+      return;
+    }
+  }
+
+  private void buySellStockUpdated(int arr[]) {
+    ArrayList<Integer> buy = new ArrayList<>();
+    ArrayList<Integer> sell = new ArrayList<>();
+    int buyTemp = Integer.MAX_VALUE;
+    int sellTemp = Integer.MIN_VALUE;
+
+    for (int x : arr) {
+
+      if (x < buyTemp) {
+        buyTemp = x;
+      } else if (x > sellTemp) {
+        sellTemp = x;
+      }
+    }
+  }
+
+  private float calculatePower(int x, int y) {
+
+    if (y == 0) {
+      return 1;
+    } else {
+      float temp = calculatePower(x, y / 2);
+      if (y % 2 == 0) {
+        return temp * temp;
+      } else {
+        if (y > 0) {
+          return x * temp * temp;
+        } else {
+          return temp * temp / x;
+        }
+      }
+    }
+  }
+
+  private void balancer(int arr[], int length) {
+
+    int arrLeft[] = new int[length];
+    int arrRight[] = new int[length];
+
+    arrLeft[0] = arr[0];
+    arrRight[length - 1] = arr[length - 1];
+
+    for (int i = 1; i < arr.length; i++) {
+
+      if (arrLeft[i - 1] < arr[i]) {
+        arrLeft[i] = arr[i];
+      }
+    }
+    for (int i = length - 2; i >= 0; i--) {
+
+      if (arrRight[i + 1] > arr[i]) {
+        arrRight[i] = arr[i];
+      }
+    }
+
+    for (int j = 1; j < length; j++) {
+      // if ((arr[j]<arrRight[j+1] && arr[j]> arr[j-1])|| (j==0 && arr[j]<arrRight[j+1]) || j==n-1)
+    }
+  }
+
+  private void zigZag(int arr[]) {
+
+    Arrays.sort(arr);
+
+    for (int i = 1; i < arr.length - 1; i++) {
+      int temp = arr[i + 1];
+      arr[i + 1] = arr[i];
+      arr[i] = temp;
+      i++;
+    }
+  }
+
+  private void zigZagUpdated(int arr[]) {
+
+    boolean flag = true;
+
+    for (int i = 0; i < arr.length - 1; i++) {
+
+      if (flag) { // < expected
+        if (arr[i] > arr[i + 1]) {
+          swap(i, i + 1, arr);
+        }
+      } else { // > expected
+        if (arr[i] < arr[i + 1]) {
+          swap(i, i + 1, arr);
+        }
+      }
+      flag = !flag;
+    }
+  }
+
+  private void kthLargestElement(int arr[]) {}
+
+  private void swap(int a, int b, int[] arr) {
+    int temp = arr[b];
+    arr[b] = arr[a];
+    arr[a] = temp;
+  }
+
   public static void main(String[] args) {
-    int test[] = {2, 7, 11, 15, 32};
     solution ts = new solution();
+
+    System.out.print(6 / 2);
+
+    // System.out.print(ts.calculatePower(2, -4));
+
+    int test[] = {2, 7, 11, 15, 32};
     // System.out.print(ts.addTwoSum(test, 9));
     // ts.revInt1(-123);
     // ts.ifIntPalindrome(1111);
@@ -493,6 +751,12 @@ public class solution {
 
     // ts.lambdaTraversal(trainArri);
     int[] findMax = {1, 2, 3, 1, 4, 5, 2, 3, 6};
-    ts.maximumSubArrayinEach(findMax, 3);
+    // ts.maximumSubArrayinEach(findMax, 3);
+
+    int[] trapWater = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+    // ts.trapRainWater(trapWater);
+    // ts.findWater(trapWater, 12);
+    char[] str = {'c', 'c', 'a', 'a', 'a'};
+    // ts.palindromeChecker(str);
   }
 }

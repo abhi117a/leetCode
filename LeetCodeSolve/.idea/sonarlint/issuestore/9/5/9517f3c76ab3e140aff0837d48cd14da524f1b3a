@@ -1,0 +1,6 @@
+
+Isquid:S1068"+Remove this unused "maxSize" private field.(œ¤²æ8óƒ­ø-
+dsquid:S1126!"AReplace this if-then-else statement by a single return statement.(­ø÷¾úÿÿÿÿ8Æµû-
+Wsquid:UnusedPrivateMethod"+Remove this unused private "parent" method.(ş¿”8ÒÄø-
+ssquid:S00116"ORename this field "Heap" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âœÌòùÿÿÿÿ8Ë»°ø-
+Msquid:S1066+"/Merge this if statement with the enclosing one.(¬Ï×ê8Æµû-
