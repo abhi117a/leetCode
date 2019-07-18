@@ -499,6 +499,24 @@ public class Arrays {
     return max;
   }
 
+  private int countPrimes(int n) {
+    int answer = 0;
+    boolean[] prime = new boolean[n + 1];
+    java.util.Arrays.fill(prime, true);
+
+    for (int p = 2; p * p <= n; p++) {
+      if (prime[p]) {
+        for (int i = p * p; i <= n; i += p) {
+          prime[i] = false;
+        }
+      }
+    }
+    for (int i = 2; i <= n; i++) {
+      answer += prime[i] == true ? 1 : 0;
+    }
+    return answer;
+  }
+
   public static void main(String args[]) {
     Arrays arr = new Arrays();
     int[] aer = {2, 0, 2, 1, 1, 0};
