@@ -1,0 +1,9 @@
+
+[squid:UnusedPrivateMethod-"/Remove this unused private "wordLadder" method.(ƒŽ®î8Ý¾Óñ¼-
+psquid:S3776-"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ƒŽ®î8ë‡èñ¼-
+[squid:S1197I"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ8¡¦–¢¼-
+Dsquid:S1481K"&Remove this unused "g" local variable.(×—Ù¹8¡¦–¢¼-
+rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®û…úÿÿÿÿÿ8¡¦–¢¼-
+Šsquid:S1845-"lRename method "wordLadder" to prevent any misunderstanding/clash with method "WordLadder" defined on line 8.(ƒŽ®î8Ý¾Óñ¼-
+`squid:UnusedPrivateMethod"/Remove this unused private "WordLadder" method.(®û…úÿÿÿÿÿ8¡¦–¢¼-
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(®û…úÿÿÿÿÿ8¡¦–¢¼-

@@ -1,0 +1,9 @@
+
+^squid:UnusedPrivateMethod"4Remove this unused private "printLinkedList" method.(ìÛ¦‚8âÖ€ø¹-
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8âÖ€ø¹-
+]squid:UnusedPrivateMethod".Remove this unused private "mergeList" method.(¶Ñ·Œÿÿÿÿÿ8âÖ€ø¹-
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¸Ï·ûÿÿÿÿ8âÖ€ø¹-
+Ysquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8âÖ€ø¹-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(»¶…’úÿÿÿÿ8âÖ€ø¹-
+Xsquid:S2589"7Remove this expression which always evaluates to "true"(ŸÔ—€ÿÿÿÿÿ8âÖ€ø¹-

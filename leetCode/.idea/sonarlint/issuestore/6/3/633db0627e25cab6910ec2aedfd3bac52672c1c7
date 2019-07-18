@@ -1,0 +1,49 @@
+
+\squid:S1197¬"8Move the array designator from the variable to the type.(œÔñĞûÿÿÿÿ8©…Ñ¼-
+\squid:S1197 "8Move the array designator from the variable to the type.(¯Îìãúÿÿÿÿ8©…Ñ¼-
+Wsquid:S1197®"8Move the array designator from the variable to the type.(Û×¹8©…Ñ¼-
+Vsquid:S1197k"8Move the array designator from the variable to the type.(•¨ó8©…Ñ¼-
+[
+squid:S106{"9Replace this use of System.out or System.err by a logger.(“ÿÏêøÿÿÿÿ8©…Ñ¼-
+vsquid:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ä¬üÿÿÿÿ8©…Ñ¼-
+osquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(Úºõºùÿÿÿÿ8©…Ñ¼-
+[
+squid:S106I"9Replace this use of System.out or System.err by a logger.(›Œ‹ƒùÿÿÿÿ8©…Ñ¼-
+\squid:S1197€"8Move the array designator from the variable to the type.(ôİüäúÿÿÿÿ8©…Ñ¼-
+\squid:S1197¡"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8©…Ñ¼-
+Fsquid:S1481@"(Remove this unused "buy" local variable.(Ï‘í8©…Ñ¼-
+rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼šıöüÿÿÿÿ8©…Ñ¼-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¨Øñ8©…Ñ¼-
+vsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôİüäúÿÿÿÿ8©…Ñ¼-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8©…Ñ¼-
+Ysquid:UnusedPrivateMethodL"-Remove this unused private "powerOf2" method.(ãƒÓ¸8©…Ñ¼-
+Vsquid:S11971"8Move the array designator from the variable to the type.(´Èøã8©…Ñ¼-
+Gsquid:S1481A")Remove this unused "sell" local variable.(ôûù8©…Ñ¼-
+Lsquid:S1481¥"(Remove this unused "max" local variable.(–¥†ıûÿÿÿÿ8©…Ñ¼-
+esquid:UnusedPrivateMethod"9Remove this unused private "maxSubarrayforRangeK" method.(òòÜ…8©…Ñ¼-
+[squid:S1197!"8Move the array designator from the variable to the type.(’ùéŠùÿÿÿÿ8©…Ñ¼-
+Vsquid:S1197~"8Move the array designator from the variable to the type.(è»ıÕ8©…Ñ¼-
+osquid:CommentedOutCodeLine©"<This block of commented-out lines of code should be removed.(ÄÛ‚ ÿÿÿÿÿ8©…Ñ¼-
+Gsquid:S1481£"(Remove this unused "aer" local variable.(®°³8©…Ñ¼-
+_squid:UnusedPrivateMethod¾"-Remove this unused private "threeSum" method.(ä¬üÿÿÿÿ8©…Ñ¼-
+gsquid:UnusedPrivateMethod"6Remove this unused private "DutchNationalFlag" method.(¼šıöüÿÿÿÿ8©…Ñ¼-
+\
+squid:S106²"9Replace this use of System.out or System.err by a logger.(Š¯ê‹üÿÿÿÿ8©…Ñ¼-
+Nsquid:S1481¤"*Remove this unused "stock" local variable.(æñ·œşÿÿÿÿ8©…Ñ¼-
+jsquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(–å¦À8©…Ñ¼-
+esquid:UnusedPrivateMethod?"9Remove this unused private "buySellStockMultiple" method.(¦çş8©…Ñ¼-
+asquid:UnusedPrivateMethodä"4Remove this unused private "threeSumClosest" method.(öÖ¸Ë8©…Ñ¼-
+asquid:UnusedPrivateMethodS"0Remove this unused private "robotOrigin" method.(»Ï³«ûÿÿÿÿ8©…Ñ¼-
+\
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(Š¯ê‹üÿÿÿÿ8©…Ñ¼-
+Vsquid:S1197"8Move the array designator from the variable to the type.(Ü¨Øñ8©…Ñ¼-
+\
+squid:S106®"9Replace this use of System.out or System.err by a logger.(Š¯ê‹üÿÿÿÿ8©…Ñ¼-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦ÉÛçıÿÿÿÿ8©…Ñ¼-
+Vsquid:S1197?"8Move the array designator from the variable to the type.(¦çş8©…Ñ¼-
+W
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(Ôèù›8©…Ñ¼-
+Vsquid:S1197"8Move the array designator from the variable to the type.(òòÜ…8©…Ñ¼-
+asquid:UnusedPrivateMethod1"5Remove this unused private "buySellStockOnce" method.(´Èøã8©…Ñ¼-

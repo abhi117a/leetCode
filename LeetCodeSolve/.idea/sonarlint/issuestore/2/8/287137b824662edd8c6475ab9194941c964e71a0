@@ -1,4 +1,4 @@
 
-Fsquid:S1185"(Remove this method to simply inherit it.(ßÛ¢Ÿ8»åò¯›-
-rsquid:S00116"NRename this field "LRU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¨æïûÿÿÿÿ8»åò¯›-
-Nsquid:S2160"+Override the "equals" method in this class.(áÍĞâøÿÿÿÿ8êıÖ¯›-
+Lsquid:S2160"+Override the "equals" method in this class.(áÍĞâøÿÿÿÿ8êıÖ¯›-
+Dsquid:S1185"(Remove this method to simply inherit it.(ßÛ¢Ÿ8»åò¯›-
+psquid:S00116"NRename this field "LRU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¨æïûÿÿÿÿ8»åò¯›-

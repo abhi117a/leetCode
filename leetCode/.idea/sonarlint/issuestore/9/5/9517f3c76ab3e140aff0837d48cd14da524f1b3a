@@ -1,0 +1,10 @@
+
+Lsquid:S1068")Remove this unused "FRONT" private field.(Àƒ‘Ïıÿÿÿÿ8üŸ²Êµ-
+osquid:S001175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÄ«x8‰ÎæÊµ-
+tsquid:S00116"PRename this field "FRONT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àƒ‘Ïıÿÿÿÿ8üŸ²Êµ-
+Vsquid:UnusedPrivateMethod5"+Remove this unused private "insert" method.(ºÄ«x8‰ÎæÊµ-
+ssquid:S00116"ORename this field "Heap" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅËÆèøÿÿÿÿ8ÁèÃÊµ-
+Ksquid:S1125"(Remove the literal "true" boolean value.(Ë®–÷ıÿÿÿÿ8ÁèÃÊµ-
+Dsquid:S1170"!Make this final field static too.(Àƒ‘Ïıÿÿÿÿ8üŸ²Êµ-
+_squid:UnusedPrivateMethodB".Remove this unused private "doMinHeap" method.(ÔÍüÿÿÿÿ8„´õÊµ-
+Msquid:S1066("/Merge this if statement with the enclosing one.(¬Ï×ê8êîÉÊµ-

@@ -1,0 +1,9 @@
+
+dsquid:UnusedPrivateMethod"8Remove this unused private "binarySearchRoatatd" method.(¢õ»Ü8şÔÌï¼-
+[squid:S11970"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8şÔÌï¼-
+nsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(˜†”Õÿÿÿÿÿ8şÔÌï¼-
+[
+squid:S1063"9Replace this use of System.out or System.err by a logger.(µ‘‰ëùÿÿÿÿ8şÔÌï¼-
+Jsquid:S14811"'Remove this unused "ss" local variable.(è¾Š›úÿÿÿÿ8şÔÌï¼-
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¢õ»Ü8şÔÌï¼-
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸œúé8şÔÌï¼-

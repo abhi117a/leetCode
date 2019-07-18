@@ -1,0 +1,27 @@
+
+fsquid:UnusedPrivateMethod”"4Remove this unused private "GroupedAnaGrams" method.(½­¾”şÿÿÿÿ8ÿ‘íÊ¼-
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(øÃ8ÿ‘íÊ¼-
+[squid:S1197"8Move the array designator from the variable to the type.(òä×¢ÿÿÿÿÿ8ÿ‘íÊ¼-
+psquid:S00117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïëÒã8ÿ‘íÊ¼-
+Wsquid:S28646"4Iterate over the "entrySet" instead of the "keySet".(äÖ¦’ÿÿÿÿÿ8ÿ‘íÊ¼-
+ssquid:S00100”"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½­¾”şÿÿÿÿ8ÿ‘íÊ¼-
+Ksquid:S1125o"(Remove the literal "true" boolean value.(˜˜˜¨øÿÿÿÿ8ÿ‘íÊ¼-
+\
+squid:S106Ä"9Replace this use of System.out or System.err by a logger.(ã¾™«øÿÿÿÿ8ÿ‘íÊ¼-
+\
+squid:S106Ò"9Replace this use of System.out or System.err by a logger.(€ÇÇ­ùÿÿÿÿ8ÿ‘íÊ¼-
+[
+squid:S106q"9Replace this use of System.out or System.err by a logger.(º‘Ô‹úÿÿÿÿ8ÿ‘íÊ¼-
+]squid:UnusedPrivateMethodf"1Remove this unused private "jewelsStones" method.(ïëÒã8ÿ‘íÊ¼-
+Vsquid:S1197A"8Move the array designator from the variable to the type.(†¶ºÏ8ÿ‘íÊ¼-
+\
+squid:S106Ó"9Replace this use of System.out or System.err by a logger.(ôàÔÖùÿÿÿÿ8ÿ‘íÊ¼-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ıÒûö8ÿ‘íÊ¼-
+msquid:S00100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Õä¥8ÿ‘íÊ¼-
+gsquid:UnusedPrivateMethod"6Remove this unused private "contigousElements" method.(òä×¢ÿÿÿÿÿ8ÿ‘íÊ¼-
+msquid:S00100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¶ºÏ8ÿ‘íÊ¼-
+`squid:UnusedPrivateMethod{"4Remove this unused private "mostCommonWords" method.(áÇâ¶8ÿ‘íÊ¼-
+usquid:S2159Ã"VRemove this call to "equals"; comparisons between unrelated types always return false.(é÷ÊÉ8ÿ‘íÊ¼-
+Hsquid:S1481*"*Remove this unused "index" local variable.(ÜŞøæ8ÿ‘íÊ¼-
+\squid:S1197¼"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ÿ‘íÊ¼-

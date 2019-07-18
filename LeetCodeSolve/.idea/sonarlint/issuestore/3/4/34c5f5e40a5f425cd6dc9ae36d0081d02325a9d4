@@ -1,0 +1,27 @@
+
+[squid:S1197G"8Move the array designator from the variable to the type.(¼¡úçÿÿÿÿÿ8”Æì†®-
+[squid:S11977"8Move the array designator from the variable to the type.(ß×Œßüÿÿÿÿ8”Æì†®-
+Usquid:S1197e"8Move the array designator from the variable to the type.(ïŸ8”Æì†®-
+‹ squid:ForLoopCounterChangedCheckW"XRefactor the code in order to not assign to this loop counter from within the loop body.(‰‚Ùó8”Æì†®-
+Gsquid:S11251")Remove the literal "false" boolean value.(‹¬“°8”Æì†®-
+[squid:S1197b"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8”Æì†®-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È²Íüÿÿÿÿ8”Æì†®-
+msquid:UnusedPrivateMethod"ARemove this unused private "longestSubstringNonRepeating" method.(Ş­õ8”Æì†®-
+Ksquid:S1481"(Remove this unused "ans" local variable.(…„¥Éûÿÿÿÿ8”Æì†®-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ü„ê!8”Æì†®-
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°Ì‡Òÿÿÿÿÿ8”Æì†®-
+Gsquid:S11251")Remove the literal "false" boolean value.(‹¬“°8”Æì†®-
+lsquid:S00101j"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ê›Ğ‰8”Æì†®-
+V
+squid:S106W"9Replace this use of System.out or System.err by a logger.(‰‚Ùó8”Æì†®-
+Usquid:S1197-"8Move the array designator from the variable to the type.(ÔÂÓB8”Æì†®-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È²Íüÿÿÿÿ8”Æì†®-
+csquid:UnusedPrivateMethod]"7Remove this unused private "minimumSteps2DGrid" method.(ÓäÖÉ8”Æì†®-
+gsquid:UnusedPrivateMethod"6Remove this unused private "numJewelsInStones" method.(È²Íüÿÿÿÿ8”Æì†®-
+esquid:UnusedPrivateMethod+"9Remove this unused private "givPrimeNumberforSum" method.(‡±‚õ8”Æì†®-
+Ksquid:S1125="(Remove the literal "true" boolean value.(åâ’«úÿÿÿÿ8”Æì†®-
+Bsquid:S1659k"Declare "y" on a separate line.(¡Ê²‘şÿÿÿÿ8”Æì†®-
+U
+squid:S1062"9Replace this use of System.out or System.err by a logger.(¡ÀË8”Æì†®-
+Isquid:S1481_"&Remove this unused "x" local variable.(Úôÿ³ùÿÿÿÿ8”Æì†®-

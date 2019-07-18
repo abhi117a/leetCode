@@ -696,14 +696,308 @@ public class solution {
     arr[a] = temp;
   }
 
+  private void determineIfUniqueCharacters(String str) {}
+
+  private void findKLargestElement(int arr[], int k) {
+
+    int size = k;
+    PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+    for (int i = 0; i < arr.length; i++) {
+      if (pq.size() < size) {
+        pq.add(arr[i]);
+      } else {
+        if (pq.peek() < arr[i]) pq.poll();
+        pq.add(arr[i]);
+      }
+    }
+    System.out.println(pq.peek());
+  }
+
+  public int findKthLargest(int[] nums, int k) {
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>(k);
+    for (int i : nums) {
+      q.offer(i);
+
+      if (q.size() > k) {
+        q.poll();
+      }
+    }
+
+    return q.peek();
+  }
+
+  private void relativeSorting(int arr[], int arr1[]) {
+
+    HashMap<Integer, Integer> hm = new HashMap<>();
+    int[] output = new int[arr.length];
+    int outputCounter = 0;
+
+    for (int x : arr) {
+      if (hm.containsKey(x)) {
+        int val = hm.get(x);
+        val++;
+        hm.put(x, val);
+      } else {
+        hm.put(x, 1);
+      }
+    }
+
+    for (int j : arr1) {
+      int tempOut = hm.get(j);
+      int start = outputCounter;
+      int end = outputCounter + tempOut;
+      while (start < end) {
+        output[start] = j;
+        start++;
+        hm.put(j, null);
+      }
+      outputCounter += tempOut;
+    }
+
+    for (int j : output) {
+      System.out.println(j);
+    }
+  }
+
+  private void longestSubstring(String str) {
+    HashSet<Character> hset = new HashSet<>();
+
+    int n = str.length();
+    int i = 0;
+    int j = 0;
+    int size = 0;
+    while (i < n && j < n) {
+      char temp = str.charAt(j);
+      if (!hset.contains(temp)) {
+        hset.add(temp);
+        size = Math.max(size, j - i);
+      } else {
+        hset.remove(temp);
+        i++;
+      }
+    }
+  }
+
+  private void groupAnagrams(String arr[]) {
+
+    Map<String, List> store = new HashMap<String, List>();
+    for (String str : arr) {
+      char temp[] = str.toCharArray();
+      Arrays.sort(temp);
+      String key = String.valueOf(temp);
+      if (store.containsKey(key)) {
+        store.put(key, new ArrayList());
+        store.get(key).add(str);
+      }
+    }
+  }
+
+  private void findPrimeRange(int n) {
+
+    boolean isPrime[] = new boolean[n + 1];
+    for (int i = 0; i < n; i++) {
+      isPrime[i] = true;
+    }
+
+    for (int i = 2; i * i <= n; i++) {
+
+      if (isPrime[i] == true) {
+        for (int j = i * i; j <= n; j += i) {
+          isPrime[j] = false;
+        }
+      }
+    }
+    for (int i = 0; i < isPrime.length; i++) {
+      if (isPrime[i] == true) {
+        System.out.println(i);
+      }
+    }
+  }
+
+  private void wordCounter(String str) {
+
+    HashMap<String, Integer> hmap = new HashMap<>();
+
+    String[] store = str.split(" ");
+    for (int i = 0; i < store.length; i++) {
+      store[i] = store[i].toLowerCase();
+    }
+    for (String x : store) {
+      int temp = hmap.getOrDefault(x, 0);
+      hmap.put(x, ++temp);
+    }
+    Iterator<Map.Entry<String, Integer>> iter = hmap.entrySet().iterator();
+    while (iter.hasNext()) {
+      Map.Entry<String, Integer> entry = iter.next();
+      System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+    }
+  }
+
+  private void scoreCounter(int arr[], int max) {
+
+    int[] keeper = new int[max + 1];
+
+    for (int x : arr) {
+      keeper[x] += 1;
+    }
+
+    for (int i = max; i > 0; i--) {
+
+      while (keeper[i] > 0) {
+        System.out.println(i);
+        keeper[i]--;
+      }
+    }
+  }
+
+  private void stocks(int arr[]) {
+    int buy = arr[0];
+    int sell = 0;
+    int profit = 0;
+    for (int i = 1; i < arr.length; i++) {
+      if (buy > arr[i]) {
+        buy = arr[i];
+      } else {
+        if (sell < arr[i]) sell = arr[i];
+      }
+    }
+    System.out.println(sell - buy);
+  }
+
+  private int productOfMax3(int arr[]) {
+
+    int max1 = Integer.MIN_VALUE;
+    int max2 = Integer.MIN_VALUE;
+    int max3 = Integer.MIN_VALUE;
+
+    int min1 = Integer.MAX_VALUE;
+    int min2 = Integer.MAX_VALUE;
+
+    for (int i = 0; i < arr.length; i++) {
+
+      if (max1 < arr[i]) {
+        max3 = max2;
+        max2 = max1;
+        max1 = arr[i];
+      } else if (max2 < arr[i]) {
+        max3 = max2;
+        max2 = arr[i];
+      } else if (max3 < arr[i]) {
+        max3 = arr[i];
+      }
+      if (min1 > arr[i]) {
+        min2 = min1;
+        min1 = arr[i];
+      } else if (min2 > arr[i]) {
+        min2 = arr[i];
+      }
+    }
+
+    return Math.max((max3 * max2 * max1), (min1 * min2 * max1));
+  }
+
+  private void findProductExceptIndex(int[] arr) {
+
+    int[] left = new int[arr.length];
+    int[] right = new int[arr.length];
+    int prod[] = new int[arr.length];
+
+    left[0] = 1;
+    right[arr.length - 1] = 1;
+
+    Arrays.fill(left, 1);
+    Arrays.fill(right, 1);
+
+    for (int i = 1; i < arr.length; i++) {
+
+      left[i] = left[i - 1] + arr[i - 1];
+    }
+    for (int j = arr.length - 2; j >= 0; j--) {
+      right[j] = right[j + 1] * arr[j + 1];
+    }
+
+    for (int k = 0; k < arr.length; k++) {
+      prod[k] = left[k] * right[k];
+    }
+  }
+
+  private void findDuplicate(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+
+      System.out.println(arr[Math.abs(arr[i])]);
+    }
+  }
+
+  private void LongestPalindrome(String str) {
+
+    char[] input = str.toCharArray();
+
+    int fin = input.length - 1;
+    int start = 0;
+    int tempFin = input.length - 1;
+    int tempStart = 0;
+
+    while (tempStart < tempFin) {
+      if (input[tempStart] == input[tempFin]) {
+        tempStart++;
+        tempFin--;
+      }
+      if (input[tempStart] != input[tempFin]) {
+        tempStart++;
+        tempFin--;
+        start = tempStart;
+        fin = tempFin;
+      }
+    }
+
+    for (int i = start; i <= fin; i++) {
+      System.out.println(input[i]);
+    }
+  }
+
   public static void main(String[] args) {
+
+    int checker = 0;
+    int val1 = 'b' - 'a';
+    int val2 = 'c' - 'a';
+    // checker |= (1 << val1);
+    checker |= (1 << val2);
+    // System.out.print(1 << val2);
+
+    if ((checker & (1 << val2)) > 0) {
+      // System.out.print("True");
+    }
+
+    // System.out.print(checker);
+
     solution ts = new solution();
 
-    System.out.print(6 / 2);
+    ts.LongestPalindrome("babad");
+
+    int[] findDup = {1, 2, 3, 4, 5};
+    // ts.findDuplicate(findDup);
+
+    int stok[] = {10, 7, 5, 8, 11, 9};
+
+    // ts.stocks(stok);
+
+    int score[] = {10, 20, 50, 60, 60};
+    // ts.scoreCounter(score, 100);
+
+    // ts.wordCounter("Hello hello world is beautiful is it?");
+
+    // ts.findPrimeRange(10);
+
+    int A1[] = {2, 1, 2, 5, 7, 1, 9, 3, 6, 8, 8};
+    int A2[] = {2, 1, 8, 3};
+    // ts.relativeSorting(A1, A2);
+
+    int test[] = {2, 7, 11, 15, 32};
+    // System.out.println(ts.findKthLargest(test, 3));
 
     // System.out.print(ts.calculatePower(2, -4));
 
-    int test[] = {2, 7, 11, 15, 32};
     // System.out.print(ts.addTwoSum(test, 9));
     // ts.revInt1(-123);
     // ts.ifIntPalindrome(1111);
@@ -720,7 +1014,7 @@ public class solution {
 
     // ts.fizzBuzz(15);
 
-    char[] arr = {'H', 'E', 'L', 'L', 'O'};
+    char[] arr1 = {'H', 'E', 'L', 'L', 'O'};
     // ts.reverse(arr);
 
     int target[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

@@ -1,0 +1,8 @@
+
+^squid:UnusedPrivateMethodM"-Remove this unused private "powerSet" method.(ÙäÄùÿÿÿÿ8ì‡â›¼-
+[
+squid:S106="9Replace this use of System.out or System.err by a logger.(­¾ÍÀşÿÿÿÿ8ì‡â›¼-
+\squid:UnusedPrivateMethod3"0Remove this unused private "maxNoIsland" method.(´ƒ×õ8ì‡â›¼-
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹éæ’8ì‡â›¼-
+[squid:S1197]"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ì‡â›¼-
+[squid:S1197M"8Move the array designator from the variable to the type.(ÙäÄùÿÿÿÿ8ì‡â›¼-

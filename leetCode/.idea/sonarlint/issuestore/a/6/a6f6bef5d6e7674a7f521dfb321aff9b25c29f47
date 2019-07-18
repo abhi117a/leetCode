@@ -1,0 +1,12 @@
+
+jsquid:UnusedPrivateMethod"9Remove this unused private "checkingMaxWithStack" method.(³ŠÂ“üÿÿÿÿ8äÊöª¼-
+V"squid:SwitchLastCaseIsDefaultCheck*""Add a default case to this switch.(î­™o8äÊöª¼-
+[squid:S1197>"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8äÊöª¼-
+V
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ÕÓÿ8äÊöª¼-
+Jsquid:S1481"'Remove this unused "hm" local variable.(ÜÓÚŞùÿÿÿÿ8äÊöª¼-
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(²šø°8äÊöª¼-
+ssquid:S1149
+"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¶Âôœøÿÿÿÿ8äÊöª¼-
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(­ĞÔÓûÿÿÿÿ8äÊöª¼-
+ssquid:S1149""PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¼áåæüÿÿÿÿ8äÊöª¼-

@@ -1,0 +1,10 @@
+
+Vsquid:S11976"8Move the array designator from the variable to the type.(ˆ€Ñø8¬‚Ê¿½-
+nsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(ÑÛœüþÿÿÿÿ8†…Ó¿½-
+nsquid:UnusedPrivateMethod"=Remove this unused private "removeSpecifiedCharacter" method.(Í­‰ùÿÿÿÿ8ÿÎ’¿½-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Çõ’þÿÿÿÿ
+Hsquid:S1481@"*Remove this unused "input" local variable.(àÛÀ8†…Ó¿½-
+nsquid:UnusedPrivateMethod	"BRemove this unused private "findFirstNonRepeatedCharacter" method.(Í¦„…8ù¤€¿½-
+bsquid:UnusedPrivateMethod4"1Remove this unused private "reversewords" method.(é“®ùüÿÿÿÿ8†…Ó¿½-
+Dsquid:S1481A"'Remove this unused "c6" local variable.(øŠía8†…Ó¿½-
+dsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”¦¶?

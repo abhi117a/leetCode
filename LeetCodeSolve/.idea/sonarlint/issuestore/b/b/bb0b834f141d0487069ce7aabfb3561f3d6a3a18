@@ -1,0 +1,7 @@
+
+Ssquid:S2696"6Make the enclosing method "static" or remove this set.(‘ÎÿN8ˆï¡‡®-
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(‡Íá±8å–¢‡®-
+Msquid:S1444"*Make this "public static root" field final(ä·äâþÿÿÿÿ8ˆï¡‡®-
+9squid:S3626""Remove this redundant jump.(ûÁÝ…8å–¢‡®-
+Š"squid:ClassVariableVisibilityCheck"PMake root a static final constant or non-public and provide accessors if needed.(ä·äâþÿÿÿÿ8ˆï¡‡®-

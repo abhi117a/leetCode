@@ -1,0 +1,20 @@
+
+Tsquid:S1197#"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+O
+squid:S106?"9Replace this use of System.out or System.err by a logger.(œÍº
+N
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Ãñ¢&
+T
+squid:S106G"9Replace this use of System.out or System.err by a logger.(éÃ‘Ëùÿÿÿÿ
+T
+squid:S106M"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(·êÜöüÿÿÿÿ
+Hsquid:S1602>",Remove useless curly braces around statement(ïÊı’úÿÿÿÿ
+?squid:S16042"(Make this anonymous inner class a lambda(•Ñ°Î
+Bsquid:S1612P",Replace this lambda with a method reference.(Ó›)
+[squid:S33585"DExtract this nested ternary operation into an independent statement.(ˆ‘Ç©
+`squid:S3358;"DExtract this nested ternary operation into an independent statement.(ÚŠÌşøÿÿÿÿ
+nsquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚŠÌşøÿÿÿÿ
+nsquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚŠÌşøÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(û£ÊÍùÿÿÿÿ

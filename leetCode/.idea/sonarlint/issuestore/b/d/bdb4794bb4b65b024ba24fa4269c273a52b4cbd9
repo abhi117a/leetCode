@@ -1,0 +1,57 @@
+
+Vsquid:S2589ù"7Remove this expression which always evaluates to "true"(Á ­8øôİî¼-
+rsquid:S00100_"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ôòÑşÿÿÿÿ8¬†Ò§¼-
+[
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¯Òüúÿÿÿÿ8¬†Ò§¼-
+[
+squid:S106["9Replace this use of System.out or System.err by a logger.(·¸ø×ıÿÿÿÿ8¬†Ò§¼-
+9squid:S3626'"Remove this redundant jump.(ûÁİ…8¬†Ò§¼-
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8œ†Ï§¼-
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(•¾°ñ8¬†Ò§¼-
+Ssquid:S1066Ğ"/Merge this if statement with the enclosing one.(éÃšõûÿÿÿÿ8¬†Ò§¼-
+rsquid:S001005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÕíûÿÿÿÿ8¬†Ò§¼-
+Vsquid:S2589ù"7Remove this expression which always evaluates to "true"(Á ­8†¦Şî¼-
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(½Ó©“ıÿÿÿÿ8¬†Ò§¼-
+osquid:S1149Ÿ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(è‰ì‚8±Ù¬Ò¼-
+W
+squid:S106Ü"9Replace this use of System.out or System.err by a logger.(°é¬İ8¬†Ò§¼-
+\
+squid:S106É"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8şˆ§Ò¼-
+Vsquid:S2589Ï"7Remove this expression which always evaluates to "true"(ÛşöŞ8¬†Ò§¼-
+psquid:S3776»"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(äª‹-8¬†Ò§¼-
+psquid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÜ¤V8¬†Ò§¼-
+\
+squid:S106Ë"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8şˆ§Ò¼-
+asquid:HiddenFieldCheck¯"7Rename "root" which hides the field declared at line 7.(âª‚ë8¬†Ò§¼-
+\
+squid:S106Ğ"9Replace this use of System.out or System.err by a logger.(í›ÊŸøÿÿÿÿ8‚‰è§¼-
+tsquid:S1149 "PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(™™ªşÿÿÿÿ8±Ù¬Ò¼-
+Wsquid:UselessParenthesesCheck·"!Remove these useless parentheses.(«ôñ´ıÿÿÿÿ8¬†Ò§¼-
+nsquid:S00100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±½†ƒ8¬†Ò§¼-
+nsquid:S00100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë›å8¬†Ò§¼-
+fsquid:UnusedPrivateMethodÃ"9Remove this unused private "printRightSideOfTree" method.(½Ï„®8¬†Ò§¼-
+W
+squid:S106Ñ"9Replace this use of System.out or System.err by a logger.(Üªƒ×8şˆ§Ò¼-
+bsquid:UnusedPrivateMethodê"0Remove this unused private "isSymmetric" method.(„í¨»ûÿÿÿÿ8¬†Ò§¼-
+V
+squid:S106x"9Replace this use of System.out or System.err by a logger.(ŸÙšë8¬†Ò§¼-
+W
+squid:S106å"9Replace this use of System.out or System.err by a logger.(•¾°ñ8¬†Ò§¼-
+W
+squid:S106‰"9Replace this use of System.out or System.err by a logger.(ƒèªÔ8¬†Ò§¼-
+\
+squid:S106Ï"9Replace this use of System.out or System.err by a logger.(ßÁîÿıÿÿÿÿ8ÖÑ¶É¼-
+\squid:S1197À"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8şˆ§Ò¼-
+\
+squid:S106Õ"9Replace this use of System.out or System.err by a logger.(òÌÜ…üÿÿÿÿ8şˆ§Ò¼-
+vsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(À‡»±şÿÿÿÿ8±Ù¬Ò¼-
+\
+squid:S106Ó"9Replace this use of System.out or System.err by a logger.(İˆçÑøÿÿÿÿ8şˆ§Ò¼-
+usquid:S3776{"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ÙÂå–úÿÿÿÿ8¬†Ò§¼-
+asquid:UnusedPrivateMethod"/Remove this unused private "zigZagTree" method.(À‡»±şÿÿÿÿ8±Ù¬Ò¼-
+ssquid:S1149M"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(²ıÑªşÿÿÿÿ8¬†Ò§¼-
+osquid:S1149¹"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(şàôµ8±Ù¬Ò¼-
+vsquid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í÷Úëøÿÿÿÿ8¬†Ò§¼-
+rsquid:S00100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¾Î£ûÿÿÿÿ8¬†Ò§¼-

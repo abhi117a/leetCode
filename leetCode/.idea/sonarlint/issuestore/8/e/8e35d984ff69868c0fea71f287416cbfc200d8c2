@@ -1,0 +1,12 @@
+
+psquid:S00116"SRename this field "Capacity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß‚º8¯›‘Â¶-
+Vsquid:UnusedPrivateMethod",Remove this unused private "enQueue" method.(äßÈ8¯›‘Â¶-
+]squid:S1126"AReplace this if-then-else statement by a single return statement.(¬Ü—®8¯›‘Â¶-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ëÕç8¯›‘Â¶-
+tsquid:S00116"RRename this field "MaxSize" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖƒÈšÿÿÿÿÿ8¯›‘Â¶-
+Usquid:UnusedPrivateMethod"+Remove this unused private "dQueue" method.(ùÃ‚8Ö¢¢Â¶-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡¯±’ùÿÿÿÿ8Ö¢¢Â¶-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÉÍé8Ö¢¢Â¶-
+Gsquid:S1172"+Remove this unused method parameter "data".(ùÃ‚8Ö¢¢Â¶-
