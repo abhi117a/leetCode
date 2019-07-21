@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class Arrays {
 
@@ -515,6 +512,158 @@ public class Arrays {
       answer += prime[i] == true ? 1 : 0;
     }
     return answer;
+  }
+
+  // LeetCode 941. Valid Mountain Array
+
+  private boolean isHappy(int n) {
+    HashSet<Integer> hs = new HashSet<>();
+    while (n != 1) {
+      int sum = 0;
+      int current = n;
+      while (current != 0) {
+        sum += (current % 10) * (current % 10);
+        current = current / 10;
+      }
+      if (hs.contains(sum)) {
+        return false;
+      } else {
+        hs.add(sum);
+        n = sum;
+      }
+    }
+    return true;
+  }
+
+  private boolean validMountainArray(int[] A) {
+
+    if (A.length < 3) {
+      return false;
+    }
+
+    int i = 0;
+    while (i < A.length && i + 1 < A.length && A[i] < A[i + 1]) {
+      i++;
+    }
+    if (i == 0 || i + 1 >= A.length) {
+      return false;
+    }
+    while (i < A.length && i + 1 < A.length) {
+      if (A[i] <= A[i++ + 1]) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  // LeetCode 202. Happy Number
+
+  private int addDigits(int num) {
+
+    while (num > 9) {
+      int sum = 0;
+      int current = num;
+      while (current != 0) {
+        sum += current % 10;
+        current = current / 10;
+      }
+      num = sum;
+    }
+    return num;
+  }
+
+  // Leetcode 263. Ugly Number
+  private boolean uglyNumber(int num) {
+
+    if (num == 0) {
+      return false;
+    }
+
+    while (num % 2 == 0) {
+      num = num / 2;
+    }
+    while (num % 3 == 0) {
+      num = num / 3;
+    }
+    while (num % 5 == 0) {
+      num = num / 5;
+    }
+    if (num != 1) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+  // LeetCode 1085. Sum of Digits in the Minimum Number
+
+  private int sumOfDigits(int[] A) {
+
+    int max = Integer.MAX_VALUE;
+    for (int x : A) {
+      max = max < x ? max : x;
+    }
+
+    if (max < 9) {
+      if (max % 2 == 0) {
+        return 1;
+      } else return 0;
+    }
+
+    while (max > 9) {
+      int sum = 0;
+      int curr = max;
+      while (curr != 0) {
+        sum += curr % 10;
+        curr = curr / 10;
+      }
+      if (sum % 2 == 0) {
+        return 1;
+      } else return 0;
+    }
+    return max;
+  }
+
+  public int thirdMax(int[] nums) {
+
+    double max1 = Double.MIN_VALUE;
+    double max2 = Double.MIN_VALUE;
+    double max3 = Double.MIN_VALUE;
+    for (int x : nums) {
+      if (max1 < x) {
+        max3 = max2;
+        max2 = max1;
+        max1 = x;
+      } else if (max2 < x && x != max1) {
+        max3 = max2;
+        max2 = x;
+      } else if (max3 < x && x != max2 && x != max1) {
+        max3 = x;
+      }
+    }
+
+    if (nums.length > 2 && max3 != Double.MIN_VALUE) {
+      return (int) max3;
+    } else {
+      return (int) max1;
+    }
+  }
+
+  private int[] sortArrayByParity(int[] A) {
+
+    int i = 0;
+    int j = A.length - 1;
+    while (i < j) {
+      if (A[i] % 2 == 0) {
+        i++;
+      } else {
+        int tmp = A[i];
+        A[i] = A[j];
+        A[j] = tmp;
+        j--;
+      }
+    }
+    return A;
   }
 
   public static void main(String args[]) {

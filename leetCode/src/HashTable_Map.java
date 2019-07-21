@@ -240,6 +240,25 @@ public class HashTable_Map {
 
     return children;
   }
+  // 169. Majority Element
+
+  private int majorityElement(int[] nums) {
+    HashMap<Integer, Integer> hm = new HashMap<>();
+    int max = 0;
+    int ans = 0;
+    for (int x : nums) {
+      int count = hm.getOrDefault(x, 0);
+      hm.put(x, ++count);
+    }
+
+    for (int keys : hm.keySet()) {
+      if (hm.get(keys) > max) {
+        ans = keys;
+        max = hm.get(keys);
+      }
+    }
+    return ans;
+  }
 
   public static void main(String args[]) {
 

@@ -407,6 +407,55 @@ public class LinkedList {
     tail.next = curr;
     return head;
   }
+  // Find the Middle of the node
+  private int findTheMiddleOfList(Node head) {
+    Node slow = head;
+    Node fast = head;
+
+    while (fast != null && fast.next != null) {
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+    return slow.data;
+  }
+
+  // Detect A cycle LeetCode 141. Linked List Cycle
+
+  private boolean hasCycle(Node head) {
+
+    Node slow = head;
+    Node fast = head.next;
+
+    while (slow != fast) {
+
+      slow = slow.next;
+      if (fast.next == null || fast.next.next == null) {
+        return false;
+      }
+      fast = fast.next.next;
+    }
+    return true;
+  }
+
+  // 142. Linked List Cycle II
+
+  private Node detectCycle(Node head) {
+
+    if (head == null || head.next == null) {
+      return null;
+    }
+    Node slow = head;
+    Node fast = head.next;
+
+    while (slow != fast) {
+      slow = slow.next;
+      if (fast.next == null || fast.next.next == null) {
+        return null;
+      }
+      fast = fast.next.next;
+    }
+    return slow;
+  }
 
   //// View The Linked List//////
   private void viewList(Node head) {
@@ -442,7 +491,7 @@ public class LinkedList {
     ls.addAtTheEnd(3);
     ls.addAtTheEnd(9);
     ls.addAtTheEnd(5);
-    ls.addAtTheEnd(2);
+    // ls.addAtTheEnd(2);
     // ls.reverseList();
     // ls.viewList(head);
     /*ls.addAtTheEnd1(4);
@@ -451,10 +500,11 @@ public class LinkedList {
     ls.merge2SorterdList();*/
     // ls.addTwoNumbers();
 
-    ls.viewList(head);
+    // ls.viewList(head);
 
-    ls.deleteValue(head, 9);
-    ls.viewList(head);
+    // ls.deleteValue(head, 9);
+    System.out.println(ls.findTheMiddleOfList(head));
+    // ls.viewList(head);
 
     // ls.partitionList(head, 3);
 

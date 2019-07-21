@@ -93,5 +93,8 @@ public class ScratchPad {
     System.out.println(1174 / 60 % 10);
     System.out.println(1174 % 60 / 10);
     System.out.println(1174 % 60 % 10);
+
+    System.out.println(6 % 3);
+    System.out.println(Double.MIN_VALUE);
   }
 }

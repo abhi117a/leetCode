@@ -467,6 +467,53 @@ public class Treess {
     return current;
   }
 
+  private boolean leafSimilar(TreeNode root1, TreeNode root2) {
+
+    Queue<TreeNode> tree1 = new LinkedList<>();
+    Queue<TreeNode> tree2 = new LinkedList<>();
+    List<Integer> tre1 = new ArrayList<>();
+    List<Integer> tre2 = new ArrayList<>();
+    tree1.add(root1);
+    tree2.add(root2);
+
+    while (!tree1.isEmpty()) {
+      TreeNode tmp = tree1.poll();
+      if (tmp.left == null && tmp.right == null) {
+        tre1.add(tmp.data);
+      } else {
+        if (tmp.left != null) {
+          tree1.add(tmp.left);
+        }
+        if (tmp.right != null) {
+          tree1.add(tmp.right);
+        }
+      }
+    }
+
+    while (!tree2.isEmpty()) {
+      TreeNode tmp = tree2.poll();
+      if (tmp.left == null && tmp.right == null) {
+        tre2.add(tmp.data);
+      } else {
+        if (tmp.left != null) {
+          tree2.add(tmp.left);
+        }
+        if (tmp.right != null) {
+          tree2.add(tmp.right);
+        }
+      }
+    }
+    if (tre1.size() != tre2.size()) {
+      return false;
+    }
+    for (int i = 0; i < tre1.size(); i++) {
+      if (tre1.get(i) != tre2.get(i)) {
+        return false;
+      }
+    }
+    return true;
+  }
+
   public static void main(String args[]) {
 
     Treess t = new Treess();
