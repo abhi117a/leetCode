@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class Chapter6_Arrays {
+public class Chapter5_Arrays {
 
   // Find the first non repeated character
 
@@ -105,6 +105,7 @@ public class Chapter6_Arrays {
   }
 
   // EPI 5.4 Advancing through Array
+
   private boolean advancingThroughArray(int a[]) {
     // At any index i we can only advance till "i+A[i]" steps
     // At any point i which is less than lastIndex if can only reach i then we cannot reach
@@ -118,9 +119,95 @@ public class Chapter6_Arrays {
     return fPoint >= lastIndex;
   }
 
+  // EPI 5.5 Remove Duplicates from Sorted Array O(N) Time and O(1) Space
+
+  private int[] removeDuplicate(int[] A) {
+    int index = 1;
+    for (int i = 0; i < A.length - 1; i++) {
+      if (A[i] != A[i + 1]) {
+        A[index++] = A[i + 1];
+      }
+    }
+    return A;
+  }
+
+  // EPI 5.6 Buy and Sell Stock Once
+
+  private int buySellStock(int[] A) {
+
+    int maxProfit = Integer.MIN_VALUE;
+    int minPrice = Integer.MAX_VALUE;
+
+    for (int x : A) {
+      minPrice = Math.min(minPrice, x);
+      maxProfit = Math.max(maxProfit, x - minPrice);
+    }
+    return maxProfit;
+  }
+
+  // EPI 5.7 Buy and Sell Stock at most twice
+  // Leetcode 123. Best Time to Buy and Sell Stock III
+
+  private int buySellStockIII(int a[]) {
+
+    List<Integer> frontMove = new ArrayList<>();
+    int minPrice = Integer.MAX_VALUE;
+    int maxProfit =
+        0; // The maximum profit variable is common for both the loops because at the start of
+    // second loop we need to maintain maxProfit and compare it with current val
+    for (int i = 0; i < a.length; i++) {
+      minPrice = Math.min(minPrice, a[i]);
+      maxProfit = Math.max(maxProfit, a[i] - minPrice);
+      frontMove.add(maxProfit);
+    }
+
+    int maxValue = Integer.MIN_VALUE;
+    for (int i = a.length - 1; i > 0; i--) { // i>0 and not i>=0 because we are going till i-1
+      maxValue = Math.max(maxValue, a[i]);
+      maxProfit = Math.max(maxProfit, maxValue - a[i] + frontMove.get(i - 1));
+    }
+
+    return maxProfit;
+  }
+
+  // Some one's else code for above but I like the simplicity!!
+
+  public int maxProfit(int[] prices) {
+    int hold1 = Integer.MIN_VALUE, hold2 = Integer.MIN_VALUE;
+    int release1 = 0, release2 = 0;
+    for (int i : prices) { // Assume we only have 0 money at first
+      release2 = Math.max(release2, hold2 + i); // The maximum if we've just sold 2nd stock so far.
+      hold2 = Math.max(hold2, release1 - i); // The maximum if we've just buy  2nd stock so far.
+      release1 = Math.max(release1, hold1 + i); // The maximum if we've just sold 1nd stock so far.
+      hold1 = Math.max(hold1, -i); // The maximum if we've just buy  1st stock so far.
+    }
+    return release2; /// Since release1 is initiated as 0, so release2 will always higher than
+    // release1.
+  }
+
+  // EPI 5.8
+  // Leetcode 280. Wiggle Sort
+
+  private int[] wiggleSort(int[] nums) {
+
+    for (int i = 1; i < nums.length; i++) {
+      if ((i % 2 == 0 && nums[i - 1] < nums[i]) || (i % 2 != 0 && nums[i - 1] > nums[i])) {
+        swap(nums, i - 1, i);
+      }
+    }
+    return nums;
+  }
+
+  public void swap(int[] nums, int a, int b) {
+
+    int tmp = nums[a];
+    nums[a] = nums[b];
+    nums[b] = tmp;
+  }
+
   public static void main(String[] args) {
     String input = "Do or do not, there is no try.";
-    Chapter6_Arrays c6 = new Chapter6_Arrays();
+    Chapter5_Arrays c6 = new Chapter5_Arrays();
     int[] a = {1, 2};
     int[] b = {3, 3, 2};
     System.out.println(c6.multiplyTwoArbitartyArray(a, b));

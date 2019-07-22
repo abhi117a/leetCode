@@ -1,54 +1,70 @@
 
 \
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8ğù÷Í¼-
-Psquid:S1481º",Remove this unused "prevOne" local variable.(Ïæéçøÿÿÿÿ8ğù÷Í¼-
-Msquid:S1481ğ")Remove this unused "prev" local variable.(ÍÚ›öüÿÿÿÿ8ğù÷Í¼-
-vsquid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÇÍ¾ùÿÿÿÿ8ğù÷Í¼-
-osquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(¢Ä½Éÿÿÿÿÿ8ğù÷Í¼-
-\squid:UnusedPrivateMethodQ"0Remove this unused private "removeStart" method.(¤Øì·8ğù÷Í¼-
-esquid:UnusedPrivateMethodÓ"8Remove this unused private "swapTwoAdjacentList" method.(èİÄ8ğù÷Í¼-
-qsquid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Ä‡ì8ğù÷Í¼-
-jsquid:CommentedOutCodeLine…"<This block of commented-out lines of code should be removed.(Ãô®ı8ğù÷Í¼-
-Lsquid:S1481£"-Remove this unused "newStart" local variable.(”„ûß8ğù÷Í¼-
-]squid:UnusedPrivateMethod¦"0Remove this unused private "reverseList" method.(®•Ôø8ğù÷Í¼-
+squid:S106Ğ"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8æÌÇ„Á-
+wsquid:S1450	"TRemove the "head2" field and declare it as a local variable in the relevant methods.(ŸË´ÿÿÿÿÿ8æÌÇ„Á-
+osquid:CommentedOutCodeLineù"<This block of commented-out lines of code should be removed.(ƒ–œÒûÿÿÿÿ8æÌÇ„Á-
 \
-squid:S106›"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8ğù÷Í¼-
-Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8ğù÷Í¼-
+squid:S106²"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8æÌÇ„Á-
+csquid:S2259·"?A "NullPointerException" could be thrown; "k" is nullable here.(êË×šùÿÿÿÿ8æÌÇ„Á-
+osquid:CommentedOutCodeLineı"<This block of commented-out lines of code should be removed.(¦¦Ìúÿÿÿÿ8æÌÇ„Á-
+Ysquid:S2696U"6Make the enclosing method "static" or remove this set.(‘¡–òùÿÿÿÿ8æÌÇ„Á-
+Usquid:S2696í"6Make the enclosing method "static" or remove this set.(“èø8æÌÇ„Á-
+esquid:S2259á"AA "NullPointerException" could be thrown; "two" is nullable here.(‘¤¬Ğùÿÿÿÿ8æÌÇ„Á-
+vsquid:S00117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÊü»ıÿÿÿÿ8æÌÇ„Á-
+esquid:S2259m"BA "NullPointerException" could be thrown; "prev" is nullable here.(Èì§†şÿÿÿÿ8æÌÇ„Á-
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8æÌÇ„Á-
+jsquid:CommentedOutCodeLineÚ"<This block of commented-out lines of code should be removed.(­‰Ä¶8æÌÇ„Á-
+\
+squid:S106ÿ"9Replace this use of System.out or System.err by a logger.(È¶¾üÿÿÿÿ8æÌÇ„Á-
+Lsquid:S1481º"-Remove this unused "newStart" local variable.(”„ûß8æÌÇ„Á-
+jsquid:CommentedOutCodeLine÷"<This block of commented-out lines of code should be removed.(²¢‰ß8æÌÇ„Á-
+Msquid:S1481‡")Remove this unused "prev" local variable.(ÍÚ›öüÿÿÿÿ8æÌÇ„Á-
+\squid:UnusedPrivateMethodQ"0Remove this unused private "removeStart" method.(¤Øì·8æÌÇ„Á-
+gsquid:UnusedPrivateMethodr"6Remove this unused private "addTwoNumbersEasy" method.(İ½Ï·üÿÿÿÿ8æÌÇ„Á-
+csquid:UnusedPrivateMethodÎ"1Remove this unused private "swapElements" method.(ÍÓôƒúÿÿÿÿ8æÌÇ„Á-
+_squid:UnusedPrivateMethod["3Remove this unused private "deteletDesired" method.(ˆÓøı8æÌÇ„Á-
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¸Ï·ûÿÿÿÿ8æÌÇ„Á-
+csquid:UnusedPrivateMethod5"2Remove this unused private "addAtLocation" method.(‰½’Åùÿÿÿÿ8æÌÇ„Á-
+vsquid:S00117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÇÍ¾ùÿÿÿÿ8æÌÇ„Á-
 W
-squid:S106„"9Replace this use of System.out or System.err by a logger.(Âıùó8ğù÷Í¼-
-Ysquid:S2696"6Make the enclosing method "static" or remove this set.(¸Ï·ûÿÿÿÿ8ğù÷Í¼-
-jsquid:CommentedOutCodeLineğ"<This block of commented-out lines of code should be removed.(àîø8ğù÷Í¼-
-hsquid:UnusedPrivateMethodï"6Remove this unused private "reverseLinkedList" method.(è¿Ãúÿÿÿÿ8ğù÷Í¼-
-Psquid:S1481¼",Remove this unused "prevTwo" local variable.(—†Ãüÿÿÿÿ8ğù÷Í¼-
-Dsquid:S1481S"&Remove this unused "p" local variable.(Ö­˜ø8ğù÷Í¼-
-jsquid:CommentedOutCodeLineÃ"<This block of commented-out lines of code should be removed.(­‰Ä¶8ğù÷Í¼-
-Ysquid:S2696+"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8ğù÷Í¼-
-Msquid:S1481_"*Remove this unused "total" local variable.(óË üÿÿÿÿ8ğù÷Í¼-
-esquid:S2259Ê"AA "NullPointerException" could be thrown; "two" is nullable here.(‘¤¬Ğùÿÿÿÿ8ğù÷Í¼-
-vsquid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÊü»ıÿÿÿÿ8ğù÷Í¼-
-csquid:UnusedPrivateMethodĞ"6Remove this unused private "merge2SorterdList" method.(ñŸÏ¹8ğù÷Í¼-
-csquid:UnusedPrivateMethod·"1Remove this unused private "swapElements" method.(ÍÓôƒúÿÿÿÿ8ğù÷Í¼-
-csquid:S2259Ÿ"?A "NullPointerException" could be thrown; "p" is nullable here.(£ËĞ™øÿÿÿÿ8ğù÷Í¼-
+squid:S106›"9Replace this use of System.out or System.err by a logger.(Âıùó8æÌÇ„Á-
+]squid:UnusedPrivateMethod"1Remove this unused private "addAtTheEnd1" method.(©ÕÛ¡8æÌÇ„Á-
+\squid:UnusedPrivateMethodc"0Remove this unused private "deleteValue" method.(’ĞÙó8æÌÇ„Á-
+xsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü¸§å8æÌÇ„Á-
+Usquid:S2696É"6Make the enclosing method "static" or remove this set.(öÁìŠ8æÌÇ„Á-
+esquid:S2259à"AA "NullPointerException" could be thrown; "one" is nullable here.(Î„š¦ıÿÿÿÿ8æÌÇ„Á-
+fsquid:UnusedPrivateMethod)"5Remove this unused private "addAtTheBegining" method.(úÆ´ûüÿÿÿÿ8æÌÇ„Á-
+Zsquid:UnusedPrivateMethod¨"-Remove this unused private "hasCycle" method.(ÓÈçÎ8ğÅĞ„Á-
+Msquid:S1481v"*Remove this unused "total" local variable.(óË üÿÿÿÿ8æÌÇ„Á-
+gsquid:UnusedPrivateMethod¡"5Remove this unused private "addTwoNumbersTwo" method.(ıó‚£ûÿÿÿÿ8æÌÇ„Á-
+Lsquid:S1068	")Remove this unused "head2" private field.(ŸË´ÿÿÿÿÿ8æÌÇ„Á-
+csquid:S2259¶"?A "NullPointerException" could be thrown; "p" is nullable here.(£ËĞ™øÿÿÿÿ8æÌÇ„Á-
+^squid:UnusedPrivateMethod|"2Remove this unused private "addTwoNumbers" method.(ù¸­‹8æÌÇ„Á-
+ksquid:UnusedPrivateMethod¸"9Remove this unused private "swapTwoAdjacentNodes" method.(ˆÄ¿ÿÿÿÿÿ8æÌÇ„Á-
+fsquid:UnusedPrivateMethodù"9Remove this unused private "reverseListWithRange" method.(êÕÙí8æÌÇ„Á-
+Ysquid:S2696+"6Make the enclosing method "static" or remove this set.(¿ıÁàşÿÿÿÿ8æÌÇ„Á-
+Psquid:S1481Ñ",Remove this unused "prevOne" local variable.(Ïæéçøÿÿÿÿ8æÌÇ„Á-
+hsquid:UnusedPrivateMethod†"6Remove this unused private "reverseLinkedList" method.(è¿Ãúÿÿÿÿ8æÌÇ„Á-
+jsquid:CommentedOutCodeLineû"<This block of commented-out lines of code should be removed.(²¢‰ß8æÌÇ„Á-
+_squid:UnusedPrivateMethod—"2Remove this unused private "partitionList" method.(ùşÕç8æÌÇ„Á-
+Asquid:S1659ÿ""Declare "prev" on a separate line.(µÙ½…8æÌÇ„Á-
+csquid:UnusedPrivateMethodç"6Remove this unused private "merge2SorterdList" method.(ñŸÏ¹8æÌÇ„Á-
+Zsquid:UnusedPrivateMethodE".Remove this unused private "removeEnd" method.(Èú§”8æÌÇ„Á-
+jsquid:CommentedOutCodeLineÚ"<This block of commented-out lines of code should be removed.(àîø8æÌÇ„Á-
+Ysquid:S2696/"6Make the enclosing method "static" or remove this set.(¥”³¦úÿÿÿÿ8æÌÇ„Á-
+osquid:CommentedOutCodeLineî"<This block of commented-out lines of code should be removed.(³¿ê¸ÿÿÿÿÿ8æÌÇ„Á-
+qsquid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Ä‡ì8æÌÇ„Á-
+]squid:UnusedPrivateMethod½"0Remove this unused private "reverseList" method.(®•Ôø8æÌÇ„Á-
 \
-squid:S106æ"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8ğù÷Í¼-
-Lsquid:S1068	")Remove this unused "head2" private field.(ŸË´ÿÿÿÿÿ8ğù÷Í¼-
-Zsquid:UnusedPrivateMethodE".Remove this unused private "removeEnd" method.(Èú§”8ğù÷Í¼-
-ksquid:UnusedPrivateMethod¡"9Remove this unused private "swapTwoAdjacentNodes" method.(ˆÄ¿ÿÿÿÿÿ8ğù÷Í¼-
-wsquid:S2293j"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü¸§å8ğù÷Í¼-
-Ysquid:S2696/"6Make the enclosing method "static" or remove this set.(¥”³¦úÿÿÿÿ8ğù÷Í¼-
-gsquid:UnusedPrivateMethodŠ"5Remove this unused private "addTwoNumbersTwo" method.(ıó‚£ûÿÿÿÿ8ğù÷Í¼-
-csquid:S2259 "?A "NullPointerException" could be thrown; "k" is nullable here.(êË×šùÿÿÿÿ8ğù÷Í¼-
+squid:S106ú"9Replace this use of System.out or System.err by a logger.(ù§õûÿÿÿÿÿ8æÌÇ„Á-
+Psquid:S1481Ó",Remove this unused "prevTwo" local variable.(—†Ãüÿÿÿÿ8æÌÇ„Á-
+bsquid:UnusedPrivateMethodº"0Remove this unused private "detectCycle" method.(µÕšôøÿÿÿÿ8ø‹…Á-
+esquid:UnusedPrivateMethodê"8Remove this unused private "swapTwoAdjacentList" method.(èİÄ8æÌÇ„Á-
+Zsquid:UnusedPrivateMethodÍ"-Remove this unused private "viewList" method.(¼Û¸ø8æÌÇ„Á-
+fsquid:S2259£"BA "NullPointerException" could be thrown; "slow" is nullable here.(‰£ûáıÿÿÿÿ8æÌÇ„Á-
 \
-squid:S106é"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8ğù÷Í¼-
-csquid:UnusedPrivateMethod5"2Remove this unused private "addAtLocation" method.(‰½’Åùÿÿÿÿ8ğù÷Í¼-
+squid:S106µ"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8æÌÇ„Á-
 \
-squid:S106"9Replace this use of System.out or System.err by a logger.(È¶¾üÿÿÿÿ8ğù÷Í¼-
-gsquid:UnusedPrivateMethod["6Remove this unused private "addTwoNumbersEasy" method.(İ½Ï·üÿÿÿÿ8ğù÷Í¼-
-Usquid:S2696Ö"6Make the enclosing method "static" or remove this set.(“èø8ğù÷Í¼-
-]squid:UnusedPrivateMethod"1Remove this unused private "addAtTheEnd1" method.(©ÕÛ¡8ğù÷Í¼-
-Usquid:S2696²"6Make the enclosing method "static" or remove this set.(öÁìŠ8ğù÷Í¼-
-fsquid:UnusedPrivateMethod)"5Remove this unused private "addAtTheBegining" method.(úÆ´ûüÿÿÿÿ8ğù÷Í¼-
-esquid:S2259É"AA "NullPointerException" could be thrown; "one" is nullable here.(Î„š¦ıÿÿÿÿ8ğù÷Í¼-
-wsquid:S1450	"TRemove the "head2" field and declare it as a local variable in the relevant methods.(ŸË´ÿÿÿÿÿ8ğù÷Í¼-
-Ysquid:S2696U"6Make the enclosing method "static" or remove this set.(‘¡–òùÿÿÿÿ8ğù÷Í¼-
-^squid:UnusedPrivateMethode"2Remove this unused private "addTwoNumbers" method.(ù¸­‹8ğù÷Í¼-
+squid:S106Ó"9Replace this use of System.out or System.err by a logger.(Ñ Áøÿÿÿÿ8æÌÇ„Á-
+Dsquid:S1481S"&Remove this unused "p" local variable.(Ö­˜ø8æÌÇ„Á-
+osquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(¢Ä½Éÿÿÿÿÿ8æÌÇ„Á-

@@ -1,33 +1,32 @@
 
-rsquid:S00100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¡åüÿÿÿÿ8†Ş¨Ÿ¼-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡ºÍœ8†Ş¨Ÿ¼-
-psquid:S00117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÌñÂ8†Ş¨Ÿ¼-
-qsquid:S1871á"MThis branch's code block is the same as the block for the branch on line 223.(¤Êâéøÿÿÿÿ8†Ş¨Ÿ¼-
-`squid:UnusedPrivateMethodj"4Remove this unused private "knapSackProblem" method.(×ÌñÂ8†Ş¨Ÿ¼-
-rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤º„œıÿÿÿÿ8†Ş¨Ÿ¼-
-`squid:UnusedPrivateMethod"4Remove this unused private "maximumSubArray" method.(ß£»µ8†Ş¨Ÿ¼-
-gsquid:UnusedPrivateMethod"6Remove this unused private "CountNumberOfWays" method.(¤º„œıÿÿÿÿ8†Ş¨Ÿ¼-
-psquid:S00117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–¹Ô8†Ş¨Ÿ¼-
-Wsquid:S1197±"8Move the array designator from the variable to the type.(Á•ô¿8†Ş¨Ÿ¼-
-esquid:UnusedPrivateMethodM"9Remove this unused private "findAllPossibleTrees" method.(€œÑ¸8†Ş¨Ÿ¼-
-V
-squid:S106A"9Replace this use of System.out or System.err by a logger.(öË›ø8†Ş¨Ÿ¼-
-osquid:CommentedOutCodeLine…"<This block of commented-out lines of code should be removed.(ÒÀ·øÿÿÿÿ8†Ş¨Ÿ¼-
-Vsquid:S1197"8Move the array designator from the variable to the type.(†İé8†Ş¨Ÿ¼-
-\
-squid:S106®"9Replace this use of System.out or System.err by a logger.(Âùñ±şÿÿÿÿ8†Ş¨Ÿ¼-
-esquid:UnusedPrivateMethod±"8Remove this unused private "buySellStockDynamic" method.(Á•ô¿8†Ş¨Ÿ¼-
-Esquid:S1659´"&Declare "minPrice" on a separate line.(ÜÂÄ½8†Ş¨Ÿ¼-
-nsquid:S00100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÍ³ƒ8†Ş¨Ÿ¼-
-Wsquid:S1197„"8Move the array designator from the variable to the type.(ßø´8†Ş¨Ÿ¼-
-csquid:UnusedPrivateMethodİ"6Remove this unused private "longestPalindrome" method.(ÏûÕ8†Ş¨Ÿ¼-
-isquid:UnusedPrivateMethod["8Remove this unused private "BinomialCoefficient" method.(Œ¡åüÿÿÿÿ8†Ş¨Ÿ¼-
-V
-squid:S106%"9Replace this use of System.out or System.err by a logger.(¸ŠìË8†Ş¨Ÿ¼-
-Ksquid:S1481
-"-Remove this unused "maxValue" local variable.(©ÂŞ8†Ş¨Ÿ¼-
-_squid:UnusedPrivateMethod)"4Remove this unused private "minEditDistance" method.(×Æèt8†Ş¨Ÿ¼-
-Osquid:S1481"1Remove this unused "scorePattern" local variable.(†İé8†Ş¨Ÿ¼-
-[squid:UnusedPrivateMethod”".Remove this unused private "wordBreak" method.(®´­ö8†Ş¨Ÿ¼-
-osquid:CommentedOutCodeLine©"<This block of commented-out lines of code should be removed.(ˆÍ×üÿÿÿÿ8†Ş¨Ÿ¼-
-Jsquid:S1659´"+Declare "maximumProfit" on a separate line.(ÜÂÄ½8†Ş¨Ÿ¼-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–¹Ô8†Ş¨Ÿ¼-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡ºÍœ8†Ş¨Ÿ¼-
+^squid:UnusedPrivateMethod"4Remove this unused private "knapSackProblem" method.(×ÌñÂ8†Ş¨Ÿ¼-
+Xsquid:UnusedPrivateMethod".Remove this unused private "wordBreak" method.(®´­ö8†Ş¨Ÿ¼-
+Isquid:S1481"-Remove this unused "maxValue" local variable.(©ÂŞ8†Ş¨Ÿ¼-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Âùñ±şÿÿÿÿ8†Ş¨Ÿ¼-
+Gsquid:S1659"+Declare "maximumProfit" on a separate line.(ÜÂÄ½8†Ş¨Ÿ¼-
+^squid:UnusedPrivateMethod"4Remove this unused private "maximumSubArray" method.(ß£»µ8†Ş¨Ÿ¼-
+esquid:UnusedPrivateMethod"6Remove this unused private "CountNumberOfWays" method.(¤º„œıÿÿÿÿ8†Ş¨Ÿ¼-
+`squid:UnusedPrivateMethod"6Remove this unused private "longestPalindrome" method.(ÏûÕ8†Ş¨Ÿ¼-
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤º„œıÿÿÿÿ8†Ş¨Ÿ¼-
+bsquid:UnusedPrivateMethod"8Remove this unused private "buySellStockDynamic" method.(Á•ô¿8†Ş¨Ÿ¼-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˆÍ×üÿÿÿÿ8†Ş¨Ÿ¼-
+]squid:UnusedPrivateMethod"4Remove this unused private "minEditDistance" method.(×Æèt8†Ş¨Ÿ¼-
+Msquid:S1481"1Remove this unused "scorePattern" local variable.(†İé8†Ş¨Ÿ¼-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÍ³ƒ8†Ş¨Ÿ¼-
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÌñÂ8†Ş¨Ÿ¼-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(öË›ø8†Ş¨Ÿ¼-
+Bsquid:S1659"&Declare "minPrice" on a separate line.(ÜÂÄ½8†Ş¨Ÿ¼-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÒÀ·øÿÿÿÿ8†Ş¨Ÿ¼-
+Tsquid:S1197"8Move the array designator from the variable to the type.(†İé8†Ş¨Ÿ¼-
+Tsquid:S1197"8Move the array designator from the variable to the type.(ßø´8†Ş¨Ÿ¼-
+nsquid:S1871"MThis branch's code block is the same as the block for the branch on line 223.(¤Êâéøÿÿÿÿ8†Ş¨Ÿ¼-
+csquid:UnusedPrivateMethod"9Remove this unused private "findAllPossibleTrees" method.(€œÑ¸8†Ş¨Ÿ¼-
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¡åüÿÿÿÿ8†Ş¨Ÿ¼-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸ŠìË8†Ş¨Ÿ¼-
+Tsquid:S1197"8Move the array designator from the variable to the type.(Á•ô¿8†Ş¨Ÿ¼-
+gsquid:UnusedPrivateMethod"8Remove this unused private "BinomialCoefficient" method.(Œ¡åüÿÿÿÿ8†Ş¨Ÿ¼-

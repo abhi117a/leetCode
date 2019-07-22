@@ -1,8 +1,21 @@
 
-^squid:UnusedPrivateMethodM"-Remove this unused private "powerSet" method.(ÙäÄùÿÿÿÿ8ì‡â›¼-
+jsquid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(Æôêç8Íë§¼¾-
+_squid:UnusedPrivateMethod„"-Remove this unused private "powerSet" method.(ÙäÄùÿÿÿÿ8›à¿ø½-
+jsquid:CommentedOutCodeLineî"<This block of commented-out lines of code should be removed.(ÃøÊé8Íë§¼¾-
+\squid:S1197„"8Move the array designator from the variable to the type.(ÙäÄùÿÿÿÿ8›à¿ø½-
+\squid:UnusedPrivateMethod3"0Remove this unused private "maxNoIsland" method.(´ƒ×õ8ì‡â›¼-
+fsquid:UnusedPrivateMethodk"5Remove this unused private "countBattleships" method.(ó‚Õìÿÿÿÿÿ8øÉÉ¿-
+isquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(°±¾c8Íë§¼¾-
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹éæ’8ì‡â›¼-
+W
+squid:S106÷"9Replace this use of System.out or System.err by a logger.(¸¸à‚8Íë§¼¾-
+nsquid:S00100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Âà8†Ì´”¾-
+^squid:UnusedPrivateMethod¬"1Remove this unused private "recursiveGCD" method.(˜ÿÛ„8åŠ°Ÿ¾-
+`squid:UnusedPrivateMethodË"3Remove this unused private "convertDecimal" method.(ı«¨ª8‘ú¤¼¾-
+\squid:S1197ì"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8Íë§¼¾-
+^squid:UnusedPrivateMethodº",Remove this unused private "isPrime" method.(õìŠÙùÿÿÿÿ8¤óÖŸ¾-
+gsquid:UnusedPrivateMethod"6Remove this unused private "letterCombination" method.(‰×™íüÿÿÿÿ8¢â†Œ¾-
 [
 squid:S106="9Replace this use of System.out or System.err by a logger.(­¾ÍÀşÿÿÿÿ8ì‡â›¼-
-\squid:UnusedPrivateMethod3"0Remove this unused private "maxNoIsland" method.(´ƒ×õ8ì‡â›¼-
-lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹éæ’8ì‡â›¼-
-[squid:S1197]"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ì‡â›¼-
-[squid:S1197M"8Move the array designator from the variable to the type.(ÙäÄùÿÿÿÿ8ì‡â›¼-
+squid:S1488Ô"[Immediately return this expression instead of assigning it to the temporary variable "val".(‡ö‚Àúÿÿÿÿ8¾×Ÿ¾-
+osquid:CommentedOutCodeLineğ"<This block of commented-out lines of code should be removed.(Œ§ışúÿÿÿÿ8Íë§¼¾-

@@ -514,8 +514,6 @@ public class Arrays {
     return answer;
   }
 
-  // LeetCode 941. Valid Mountain Array
-
   private boolean isHappy(int n) {
     HashSet<Integer> hs = new HashSet<>();
     while (n != 1) {
@@ -534,6 +532,8 @@ public class Arrays {
     }
     return true;
   }
+
+  // LeetCode 941. Valid Mountain Array
 
   private boolean validMountainArray(int[] A) {
 
