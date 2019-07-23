@@ -233,6 +233,38 @@ public class Recursive_BackTracking {
     }
   }
 
+  // Merge two sorted strings
+  private String alphabeticMerge(String one, String two) {
+
+    if (one == null || one.equals("")) {
+      return two == null ? one : two;
+    } else if (two == null || two.equals("")) {
+      return one;
+    } else if (one.charAt(0) < two.charAt(0)) {
+      return one.charAt(0) + alphabeticMerge(one.substring(1, one.length()), two);
+    } else {
+      return two.charAt(0) + alphabeticMerge(one, two.substring(1, two.length()));
+    }
+  }
+
+  // Count the vowvel occurances
+
+  private int countVowelOccurances(String str) {
+    if (str == null || str.equals("")) {
+      return 0;
+    } else if (Character.toLowerCase(str.charAt(0)) == 'a'
+        || Character.toLowerCase(str.charAt(0)) == 'e'
+        || Character.toLowerCase(str.charAt(0)) == 'i'
+        || Character.toLowerCase(str.charAt(0)) == 'o'
+        || Character.toLowerCase(str.charAt(0)) == 'u') {
+
+      return 1 + countVowelOccurances(str.substring(1, str.length()));
+
+    } else {
+      return 0 + countVowelOccurances(str.substring(1, str.length()));
+    }
+  }
+
   public static void main(String args[]) {
     Recursive_BackTracking rb = new Recursive_BackTracking();
     // rb.letterCombination("23");
@@ -245,5 +277,7 @@ public class Recursive_BackTracking {
     // System.out.println(rb.convertDecimal(19));
 
     System.out.println(rb.reverseString("Hello"));
+
+    System.out.println(rb.countVowelOccurances("HelloWOrld"));
   }
 }

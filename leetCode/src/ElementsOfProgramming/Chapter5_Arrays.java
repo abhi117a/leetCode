@@ -1,9 +1,6 @@
 package ElementsOfProgramming;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class Chapter5_Arrays {
 
@@ -198,6 +195,28 @@ public class Chapter5_Arrays {
     return nums;
   }
 
+  // EPI 5.9 Permute all the Primes
+
+  private void permutePrime(int n) {
+
+    boolean[] result = new boolean[n + 1];
+    Arrays.fill(result, true);
+    result[0] = false;
+    result[1] = false;
+    for (int p = 2; p * p <= n; p++) {
+      if (result[p] == true) {
+        for (int i = p * p; i <= n; i += p) {
+          result[i] = false;
+        }
+      }
+    }
+    for (int i = 0; i < result.length; i++) {
+      if (result[i] == true) {
+        System.out.println("Prime " + i);
+      }
+    }
+  }
+
   public void swap(int[] nums, int a, int b) {
 
     int tmp = nums[a];
@@ -211,6 +230,7 @@ public class Chapter5_Arrays {
     int[] a = {1, 2};
     int[] b = {3, 3, 2};
     System.out.println(c6.multiplyTwoArbitartyArray(a, b));
+    c6.permutePrime(18);
 
     // System.out.println(c6.reversewords(input));
   }

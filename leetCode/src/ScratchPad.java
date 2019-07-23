@@ -96,5 +96,12 @@ public class ScratchPad {
 
     System.out.println(6 % 3);
     System.out.println(Double.MIN_VALUE);
+
+    Boolean flag = true;
+    boolean flag1 = true;
+
+    if (flag == flag1) {
+      System.out.println("HAHA");
+    }
   }
 }

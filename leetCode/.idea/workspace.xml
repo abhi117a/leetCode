@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29b2423b-1743-4be8-8c1d-0a695a8f96d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CircullarQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ElementsOfProgramming/Chapter5_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable_Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap_Use.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KnapSack_0_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListPart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LruCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MediumScreenShots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursive_BackTracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScratchPad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search_Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stacks_Queues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringManupilation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Treess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElementsOfProgramming/Chapter7_LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElementsOfProgramming/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetCode/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/Arrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/ElementsOfProgramming/Chapter6_Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/Recursive_BackTracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/Recursive_BackTracking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/ScratchPad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/ScratchPad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElementsOfProgramming/Chapter5_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElementsOfProgramming/Chapter5_Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursive_BackTracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursive_BackTracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScratchPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScratchPad.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,38 +22,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HashTable_Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3765">
-              <caret line="252" selection-start-line="252" selection-end-line="252" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Treess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7635">
-              <caret line="511" column="7" selection-start-line="511" selection-start-column="7" selection-end-line="511" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StringManupilation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7680">
-              <caret line="512" column="28" selection-start-line="512" selection-start-column="28" selection-end-line="512" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6360">
-              <caret line="426" column="25" selection-start-line="426" selection-start-column="25" selection-end-line="426" selection-end-column="25" />
+            <state relative-caret-position="627">
+              <caret line="501" column="29" selection-start-line="501" selection-start-column="29" selection-end-line="501" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -98,20 +56,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ScratchPad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+            <state relative-caret-position="437">
+              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ElementsOfProgramming/Chapter5_Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="232" column="22" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ElementsOfProgramming/Chapter5_Arrays.java">
+        <entry file="file://$PROJECT_DIR$/src/ElementsOfProgramming/Chapter7_LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="94" lean-forward="true" selection-start-line="52" selection-start-column="94" selection-end-line="52" selection-end-column="94" />
+            <state relative-caret-position="163">
+              <caret line="118" column="46" lean-forward="true" selection-start-line="118" selection-start-column="46" selection-end-line="118" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -128,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursive_BackTracking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3255">
-              <caret line="222" selection-start-line="222" selection-end-line="222" />
+            <state relative-caret-position="216">
+              <caret line="280" column="62" selection-start-line="280" selection-start-column="62" selection-end-line="280" selection-end-column="62" />
               <folding>
                 <element signature="e#4350#4351#0" expanded="true" />
                 <element signature="e#4380#4381#0" expanded="true" />
@@ -185,24 +161,26 @@
         <option value="$PROJECT_DIR$/src/screenShots.java" />
         <option value="$PROJECT_DIR$/src/MediumcreenShots.java" />
         <option value="$PROJECT_DIR$/src/MediumScreenShots.java" />
-        <option value="$PROJECT_DIR$/src/Recursive_BackTracking.java" />
         <option value="$PROJECT_DIR$/src/StringManupilation.java" />
         <option value="$PROJECT_DIR$/src/Heap_Use.java" />
         <option value="$PROJECT_DIR$/src/Treess.java" />
         <option value="$PROJECT_DIR$/src/HashTable_Map.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/ScratchPad.java" />
         <option value="$PROJECT_DIR$/src/ElementsOfProgramming/Chapter6_Arrays.java" />
         <option value="$PROJECT_DIR$/src/Arrays.java" />
+        <option value="$PROJECT_DIR$/src/Recursive_BackTracking.java" />
+        <option value="$PROJECT_DIR$/src/ScratchPad.java" />
         <option value="$PROJECT_DIR$/src/ElementsOfProgramming/Chapter5_Arrays.java" />
+        <option value="$PROJECT_DIR$/src/ElementsOfProgramming/Node.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/ElementsOfProgramming/Chapter7_LinkedList.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1920" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="992" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -267,6 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -290,7 +269,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,6 +278,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ElementsOfProgramming" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -320,14 +303,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays" />
-      <module name="leetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Chapter5_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ElementsOfProgramming.Chapter5_Arrays" />
       <module name="leetCode" />
@@ -344,6 +319,14 @@
     </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList" />
+      <module name="leetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursive_BackTracking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursive_BackTracking" />
       <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -401,16 +384,16 @@
       <item itemvalue="Application.ScratchPad" />
       <item itemvalue="Application.StringManupilation" />
       <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.Arrays" />
       <item itemvalue="Application.Chapter5_Arrays" />
+      <item itemvalue="Application.Recursive_BackTracking" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Chapter5_Arrays" />
         <item itemvalue="Application.ScratchPad" />
+        <item itemvalue="Application.Recursive_BackTracking" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.StringManupilation" />
-        <item itemvalue="Application.Arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -441,17 +424,18 @@
       <workItem from="1563682102180" duration="112000" />
       <workItem from="1563682920454" duration="22000" />
       <workItem from="1563682964932" duration="6236000" />
+      <workItem from="1563817089173" duration="10673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295335000" />
+    <option name="totallyTimeSpent" value="306008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1620" y="104" width="1920" height="992" extended-state="0" />
+    <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15282215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1544196" />
       <window_info id="Structure" order="1" weight="0.19382322" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -459,10 +443,9 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3645485" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33989638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4225195" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,10 +453,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32952183" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3288889" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -724,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTable_Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3765">
@@ -759,17 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6360">
-          <caret line="426" column="25" selection-start-line="426" selection-start-column="25" selection-end-line="426" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ScratchPad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+        <state relative-caret-position="8025">
+          <caret line="535" column="39" selection-start-line="535" selection-start-column="39" selection-end-line="535" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -782,8 +752,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursive_BackTracking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3255">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        <state relative-caret-position="216">
+          <caret line="280" column="62" selection-start-line="280" selection-start-column="62" selection-end-line="280" selection-end-column="62" />
           <folding>
             <element signature="e#4350#4351#0" expanded="true" />
             <element signature="e#4380#4381#0" expanded="true" />
@@ -793,17 +763,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/src/ScratchPad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8025">
-          <caret line="535" column="39" selection-start-line="535" selection-start-column="39" selection-end-line="535" selection-end-column="39" />
+        <state relative-caret-position="437">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ElementsOfProgramming/Chapter5_Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="94" lean-forward="true" selection-start-line="52" selection-start-column="94" selection-end-line="52" selection-end-column="94" />
+        <state relative-caret-position="554">
+          <caret line="232" column="22" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ElementsOfProgramming/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="501" column="29" selection-start-line="501" selection-start-column="29" selection-end-line="501" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ElementsOfProgramming/Chapter7_LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="118" column="46" lean-forward="true" selection-start-line="118" selection-start-column="46" selection-end-line="118" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

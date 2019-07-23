@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Queue;
+import java.util.*;
 
 public class LinkedList {
 
@@ -437,24 +435,78 @@ public class LinkedList {
     return true;
   }
 
-  // 142. Linked List Cycle II
+  // 142. Linked List Cycle II return a node where cycle begins
 
-  private Node detectCycle(Node head) {
+  // Approach 1 Use a Hashset
 
-    if (head == null || head.next == null) {
+  private Node detectCycleHashsetII(Node root) {
+    Set<Node> store = new HashSet<>();
+    while (root != null) {
+      if (store.contains(root)) {
+        return root;
+      } else {
+        store.add(root);
+      }
+      root = root.next;
+    }
+    return null;
+  }
+
+  // Slow and faster Approach
+
+  private Node detectCycleII(Node head) {
+
+    Node slow = head;
+    Node fast = head;
+
+    while (fast != null && fast.next != null) {
+
+      slow = slow.next;
+      fast = fast.next.next;
+      if (fast == slow) {
+        break;
+      }
+    }
+
+    if (fast == null || fast.next == null || fast.next.next == null) {
       return null;
     }
-    Node slow = head;
-    Node fast = head.next;
 
-    while (slow != fast) {
+    Node starter = head;
+
+    while (starter != slow) {
+      starter = starter.next;
       slow = slow.next;
-      if (fast.next == null || fast.next.next == null) {
-        return null;
-      }
+    }
+    return slow;
+  }
+
+  // 876. Middle of the Linked List
+
+  private Node middle(Node root) {
+
+    Node slow = head;
+    Node fast = head;
+    while (fast != null || fast.next != null) {
+      slow = slow.next;
       fast = fast.next.next;
     }
     return slow;
+  }
+
+  // Leetcode 83. Remove Duplicates from Sorted List
+
+  private Node deleteDuplicate(Node root) {
+    Node current = head;
+
+    while (current != null && current.next != null) {
+      if (current.next.data == current.data) {
+        current.next = current.next.next;
+      } else {
+        current = current.next;
+      }
+    }
+    return head;
   }
 
   //// View The Linked List//////
