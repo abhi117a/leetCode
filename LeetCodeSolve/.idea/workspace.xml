@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="77de9d16-e7df-41a8-8042-48f57a901774" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/Arrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/ElementsOfProgramming/Chapter6_Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/Recursive_BackTracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/Recursive_BackTracking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/ScratchPad.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/ScratchPad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/src/ElementsOfProgramming/Chapter5_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/ElementsOfProgramming/Chapter5_Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/src/ElementsOfProgramming/Chapter7_LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/ElementsOfProgramming/Chapter7_LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leetCode/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/src/Recursive_BackTracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/Recursive_BackTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/src/ScratchPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/ScratchPad.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,10 +153,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -432,7 +427,7 @@
     <option name="totallyTimeSpent" value="140728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
@@ -453,7 +448,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32914925" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" visible="true" weight="0.38251367" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" visible="true" weight="0.3840878" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32775453" />
       <window_info anchor="right" id="Maven" />

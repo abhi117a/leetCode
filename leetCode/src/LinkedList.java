@@ -495,6 +495,7 @@ public class LinkedList {
   }
 
   // Leetcode 83. Remove Duplicates from Sorted List
+  // EPI 7.8
 
   private Node deleteDuplicate(Node root) {
     Node current = head;
@@ -507,6 +508,22 @@ public class LinkedList {
       }
     }
     return head;
+  }
+
+  private void removeKthLastNode(Node head, int del) {
+
+    Node fast = head;
+    Node slow = head;
+    while (del > 0) {
+      fast = fast.next;
+      del--;
+    }
+    while (fast.next != null) {
+      slow = slow.next;
+      fast = fast.next;
+    }
+
+    slow.next = slow.next.next;
   }
 
   //// View The Linked List//////
@@ -555,10 +572,13 @@ public class LinkedList {
     // ls.viewList(head);
 
     // ls.deleteValue(head, 9);
-    System.out.println(ls.findTheMiddleOfList(head));
+    // System.out.println(ls.findTheMiddleOfList(head));
     // ls.viewList(head);
 
     // ls.partitionList(head, 3);
+
+    ls.removeKthLastNode(head, 3);
+    ls.viewList(head);
 
     System.out.println("Program Ended");
   }
